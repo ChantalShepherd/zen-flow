@@ -1,3 +1,6 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 /* Asterix wilcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -13,10 +16,12 @@ body {
     /* Generic Project Styles */
     color: #3a3a3a;
 }
+
 /* Header */
 header {
 background-color: rgba(187, 0, 255, 0.434);
 }
+
 /* Main Content */
 main{
     background-color: rgb(30, 210, 210);
