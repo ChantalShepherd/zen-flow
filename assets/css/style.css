@@ -23,6 +23,9 @@ body {
 header {
 background-color: rgba(187, 0, 255, 0.434);
 }
+h1{
+    font-family: "Oswald", sans-serif;
+}
 
 /* Main Content */
 main{
