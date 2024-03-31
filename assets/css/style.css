@@ -81,7 +81,13 @@ nav {
 
 /* Main Content */
 main{
-    background-color: rgb(30, 210, 210);
+/* Home Image Section Styling */
+    #yoga {
+        height:900px;
+        width:100%;
+        background: url("../images/yogaabout.jpg") no-repeat center center/cover;
+        /*REMEMBER TO FIX THE IMAGE ISSUE WHEN YOU START AGAIN*/
+    }
 /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top:47px;
@@ -110,6 +116,7 @@ main{
     width: fit-content;
     padding-right: 1rem;
    } 
+     
    #menu {
     display:flex;
    }
