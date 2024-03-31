@@ -33,12 +33,14 @@ header a{
     color:inherit;
 
 }
+/* H1 header */
 h1{
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #2a2a2a;
 }
+/* Navigation menu */
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -48,14 +50,24 @@ h1{
     margin-bottom:1em;
 
 }
+/* Navbar with underlining*/
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-
+/* Navbar Styles with dropdown menu*/
+nav {
+    position:absolute;
+    background-color:#ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display:none;
+}
 /* Main Content */
 main{
     background-color: rgb(30, 210, 210);
-    /*Make main element take up any surplus space to push footer down*/
+/*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
 
 }
