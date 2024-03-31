@@ -75,12 +75,16 @@ nav {
 #nav-toggle{
     display:none;
 }
+.nav-toggle-label{
+    font-size: 2rem;
+}
 
 /* Main Content */
 main{
     background-color: rgb(30, 210, 210);
 /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
+    margin-top:47px;
 
 }
 /* Footer */
