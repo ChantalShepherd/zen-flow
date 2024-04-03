@@ -15,8 +15,14 @@ body {
     flex-direction: column;
     /* Generic Project Styles */
     color: #3a3a3a;
-    font-family: "Lato", sans-serif;
-    
+    font-family: "Lato", sans-serif;    
+}
+/* H1, h2 and h3 headers */
+h1, h2, h3{
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #2a2a2a;
 }
 
 /* Header */
@@ -36,13 +42,7 @@ header a{
     color:inherit;
 
 }
-/* H1 header */
-h1{
-    font-family: "Oswald", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #2a2a2a;
-}
+
 /* Navigation menu */
 #menu {
     font-size: 110%;
@@ -83,11 +83,27 @@ nav {
 main{
 /* Home Image Section Styling */
     #yoga {
-        height:850px;
+        height:800px;
         width:100%;
         background: url("../images/yogaabout2.webp") no-repeat center center/cover;     
-            
+        position: relative;   
     }
+    /*Cover Text*/
+    #cover-text{
+        /*Final rgba value sets the transparency of the txt*/
+        background-color:rgba(216, 198, 202, .7);
+        font-size: 130%;
+        position:absolute;
+        bottom: 30px;
+        width: 80%;
+        min-height: 200px;
+        padding-top: 40px;
+        padding-left: 10px;
+    }
+    #cover-text > h2, #cover-text > h3{
+        color:#ffffff;        
+    }
+
 /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top:47px;
@@ -107,7 +123,7 @@ main{
     color:#3a3a3a;
 }
 /* Media Query tablets and larger devices (768px and up) */
-@media screen and (min-width:768px){
+@media screen and (min-width: 768px) {
    /* Header */
    nav {
     display:block;
@@ -136,6 +152,12 @@ main{
     /* Push main content down to accomodate larger header */
     margin-top:79px;
    }
+   /*Yoga Cover Text*/
+   #cover-text{
+    width: 300px;
+    right: 50px;
+   }
+   /*This doesent seems to be responding to the size*/
 }
 /* Large devices (laptops and  desktops 992px and up) */
 @media screen and (min-width:992px){
