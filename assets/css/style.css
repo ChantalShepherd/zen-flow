@@ -83,10 +83,10 @@ nav {
 main{
 /* Home Image Section Styling */
     #yoga {
-        height:900px;
+        height:850px;
         width:100%;
-        background: url("../images/yogaabout.jpg") no-repeat center center/cover;
-        /*REMEMBER TO FIX THE IMAGE ISSUE WHEN YOU START AGAIN*/
+        background: url("../images/yogaabout2.webp") no-repeat center center/cover;     
+            
     }
 /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
