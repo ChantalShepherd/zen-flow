@@ -92,10 +92,28 @@ main {
         background: url("../images/yogaabout2.webp") no-repeat center center/cover;     
         position: relative;   
     }
+    
+    /*Cover Text*/
+    #cover-text{
+        /*Final rgba value sets the transparency of the txt*/
+        background-color:rgba(216, 198, 202, .7);
+        font-size: 130%;
+        position:absolute;
+        bottom: 30px;
+        width: 80%;
+        min-height: 200px;
+        padding-top: 40px;
+        padding-left: 10px;
+    }
+    #cover-text > h2, #cover-text > h3{
+        color:#ffffff;        
+    }
+    
+/* Reasons to join Section Styling */  
     #join{
         width:90%;
         margin:20px;
-        color:#ffffff
+        color:#3a3a3a
     }
     #join h2{
         margin-bottom: 20px;
@@ -114,9 +132,11 @@ main {
         border-top: 1px solid #3a3a3a;
         margin: 5px 0;
     }
-    #circle-image-bg{
-        background: url("../images/gallery9.webp") no-repeat top center/cover; 
-        height: 90vw;
+
+    /*Circle Image Styling*/
+    #circle-image-bg {
+        background: url("../images/circeimage.webp") no-repeat top center/cover; 
+        height: 90vh;
         width: 90vw;
         margin-bottom: 20px;
         /*Makes the image into a circle*/
@@ -128,23 +148,7 @@ main {
         display: flex;
         align-items:center ;
         justify-content:center ;
-    }
-
-    /*Cover Text*/
-    #cover-text{
-        /*Final rgba value sets the transparency of the txt*/
-        background-color:rgba(216, 198, 202, .7);
-        font-size: 130%;
-        position:absolute;
-        bottom: 30px;
-        width: 80%;
-        min-height: 200px;
-        padding-top: 40px;
-        padding-left: 10px;
-    }
-    #cover-text > h2, #cover-text > h3{
-        color:#ffffff;        
-    }
+    }   
 
 /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
