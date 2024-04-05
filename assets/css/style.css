@@ -92,7 +92,7 @@ main {
         background: url("../images/yogaabout2.webp") no-repeat center center/cover;     
         position: relative;   
     }
-    
+
     /*Cover Text*/
     #cover-text{
         /*Final rgba value sets the transparency of the txt*/
@@ -207,11 +207,48 @@ main {
     width: 300px;
     right: 50px;
    }
-}
+
+   /*Benefits Section*/
+   #benefits-body,
+   #benefits-mental{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+   #benefits-body > div,
+   #benefits-mental > div {
+    width:75%
+   }
+   #benefits-mental > div {
+    text-align: end;
+    align-self: flex-end;
+   } 
 
 /* Large devices (laptops and  desktops 992px and up) */
 @media screen and (min-width:992px){
     #menu a:hover{
         border-bottom:1px solid #3a3a3a;
     }
+/*Benefits Section*/
+@media screen and (min-width:1200px){
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+    #benefits > div {
+        flex: 1;
+    }
+    #benefits-image {
+        order: 0;
+    }
+    #benefits-mental {
+        order: 1;
+    }
+    #benefits-mental > div {
+        align-self: flex-start;
+    }
+    #benefits-body > div {
+        align-self: flex-end;
+    }
+}
 }
