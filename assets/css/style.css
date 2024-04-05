@@ -13,10 +13,11 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic Project Styles */
+/* Generic Project Styles */
     color: #3a3a3a;
     font-family: "Lato", sans-serif;    
 }
+
 /* H1, h2 and h3 headers */
 h1, h2, h3{
     font-family: "Oswald", sans-serif;
@@ -37,10 +38,10 @@ display:flex;
 justify-content: space-between;
 align-items: baseline;
 }
+
 header a{
     text-decoration: none;
     color:inherit;
-
 }
 
 /* Navigation menu */
@@ -53,10 +54,12 @@ header a{
     margin-bottom:1em;
 
 }
+
 /* Navbar with underlining*/
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 /* Navbar Styles with dropdown menu*/
 nav {
     position:absolute;
@@ -68,6 +71,7 @@ nav {
     display:none;
     top: 100%;
 }
+
 /* Nav Toggle */
 #nav-toggle:checked~nav {
     display:block;
@@ -80,14 +84,52 @@ nav {
 }
 
 /* Main Content */
-main{
+main {
 /* Home Image Section Styling */
     #yoga {
-        height:800px;
+        height: 800px;
         width:100%;
         background: url("../images/yogaabout2.webp") no-repeat center center/cover;     
         position: relative;   
     }
+    #join{
+        width:90%;
+        margin:20px;
+        color:#ffffff
+    }
+    #join h2{
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 280%;
+    }
+    #benefits-body > div,
+    #benefits-mental > div {
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    #benefits p{
+        padding: 0 20px;
+    }
+    hr {
+        border-top: 1px solid #3a3a3a;
+        margin: 5px 0;
+    }
+    #circle-image-bg{
+        background: url("../images/gallery9.webp") no-repeat top center/cover; 
+        height: 90vw;
+        width: 90vw;
+        margin-bottom: 20px;
+        /*Makes the image into a circle*/
+        border-radius: 50%;
+        max-height: 300px;
+        max-width: 300px;
+    }
+    #benefits-image{
+        display: flex;
+        align-items:center ;
+        justify-content:center ;
+    }
+
     /*Cover Text*/
     #cover-text{
         /*Final rgba value sets the transparency of the txt*/
@@ -107,9 +149,11 @@ main{
 /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top:47px;
-
 }
+
 /* Footer */
+
+/* Social Media Icons */
 #social-media{
     text-align:center;
     padding:20px;
@@ -122,6 +166,7 @@ main{
     padding: 5%;
     color:#3a3a3a;
 }
+
 /* Media Query tablets and larger devices (768px and up) */
 @media screen and (min-width: 768px) {
    /* Header */
@@ -147,22 +192,22 @@ main{
     line-height: 75px;
     margin: 0 0.5rem;
    }
-   /* Main Content */
+
+   /* Push main content down to accomodate larger header */
    main {
-    /* Push main content down to accomodate larger header */
     margin-top:79px;
    }
+
    /*Yoga Cover Text*/
    #cover-text{
     width: 300px;
     right: 50px;
    }
-   /*This doesent seems to be responding to the size*/
 }
+
 /* Large devices (laptops and  desktops 992px and up) */
 @media screen and (min-width:992px){
     #menu a:hover{
         border-bottom:1px solid #3a3a3a;
     }
-
 }
