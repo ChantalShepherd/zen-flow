@@ -37,8 +37,43 @@
             </ul>
         </nav>
     </header>
+
     <!-- Main Content -->
-    <main>Main Content</main>
+    <main>
+        <section id="signup">
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-solid fa-clipboard-check"></i> Let's get you signed up!</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+                <label for="phone">Telephone Number</label>
+                <input type="tel" name="telephone_number" id="telephone_number" class="number-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="yogas">Yoga</label>
+                        <input type="radio" name="wellness_preference" id="yogas" value="yogas" required checked>
+                    </div>
+                    <div>
+                        <label for="meditation">Meditation</label>
+                        <input type="radio" name="wellness_preference" id="meditation" value="meditation" required checked>                        
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" name="wellness_preference" id="both" value="both" required>
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Let's Go!</button>
+            </form>
+        </section>
+    </main>
+
     <!-- Footer -->
     <footer>
         <ul id="social-media">
@@ -48,6 +83,7 @@
             <li><a href="https://www.youtube.com/results?search_query=Zen+Flow" target="_blank" rel="noopener"aria-label="View our You Tube Page (Opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a></li>                     
         </ul>
     </footer>
+
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/8c7d853858.js" crossorigin="anonymous"></script>
 </body>
