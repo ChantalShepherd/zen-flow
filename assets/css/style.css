@@ -25,6 +25,10 @@ h1, h2, h3{
     letter-spacing: 2px;
     color: #2a2a2a;
 }
+/*Hides the heading  for meetup times without losing seo*/
+.hidden-heading{
+    display: none;
+}
 
 /* Header */
 header {
