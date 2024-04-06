@@ -229,6 +229,8 @@ main {
     #menu a:hover{
         border-bottom:1px solid #3a3a3a;
     }
+}
+
 /*Benefits Section*/
 @media screen and (min-width:1200px){
     #benefits {
@@ -250,5 +252,4 @@ main {
     #benefits-body > div {
         align-self: flex-end;
     }
-}
 }
