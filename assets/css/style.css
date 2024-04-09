@@ -152,7 +152,7 @@ main {
         display: flex;
         align-items:center ;
         justify-content:center ;
-    }   
+    }  
 
 /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
@@ -176,6 +176,7 @@ main {
     /*creates a grid of meetup times*/
     border: 2px solid white;
 }
+
 #times h3{
     color:#fafafa;
 }
@@ -213,14 +214,6 @@ main {
     width: 100%;
     padding-bottom: 15px;
     border-radius: 5px;
-}
-
-#photos img {
-    width: 100%;
-    line-height: 1em;
-}
-#photos {
-    line-height: 0;
 }
 
 /* Form */
@@ -397,7 +390,7 @@ main {
 }
 
 /*Benefits Section*/
-@media screen and (min-width:1200px){
+@media (min-width:1200px){
     #benefits {
         display: flex;
         flex-direction: row;
