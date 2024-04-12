@@ -37,3 +37,10 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 ---
 
 Happy coding!
+
+/*How i deployed my website*/
+First i logged into my github repository for zen-flow
+Then i clicked the settig tabs, scrolled down and clicked pages
+I ensured the "deploy from branch" was alocated under source, under branch the "main" was selected and "root" also. 
+Then i clicked save. 
+Then i went to the code page and scrolled down to github pages on the right hand side, clicked the link and then clicked the latest deployment with the arrow box button to to see the site in live mode. 
