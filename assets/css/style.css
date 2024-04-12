@@ -171,16 +171,15 @@ main {
     .pill:hover{
         background: rgba(186, 168, 172, 0.7);
     }
-    #sign-up-button{
-        box-shadow: 0 2px 2px #3a3a3a;
+    #sign-up-button{        
         display:flex;
         flex-direction: column;
     }
+
 /*Grid Gallery Section*/
 .collage{
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 2px 2px #3a3a3a;
     display:flex;
     flex-direction: column;
 }
@@ -193,6 +192,81 @@ main {
     content:"";
     display:table;
     clear:both;
+}
+
+/*Reviews Section*/
+.review{
+    background: url("../images/bg.jpg") no-repeat top center/cover;
+    display: flex;
+}
+.comments{
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+}
+.container-left h1{
+    margin-bottom: 2rem ;
+    font-size: 2.5rem; ;
+    font-weight: 500;
+    color: #3a3a3a;
+}
+.container-left p{
+    color: #3a3a3a;
+    margin-bottom: 1rem;
+}
+.container-left button{
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: rgba(216, 198, 202, .7);
+    font-size: 1rem;
+    cursor:pointer;
+}
+.container-left button:hover{
+    background: rgba(186, 168, 172, 0.7);
+}
+.container-right{
+    display: grid;
+    gap: 2rem;
+}
+.card{
+    padding: 2rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    background-color: #fafafa;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(216, 198, 202, .7);
+    cursor: pointer;
+}
+.card img{
+    max-width: 75px;
+    border-radius: ;: 100%;
+}
+.card_content{
+    display: flex;
+    gap: 1rem;
+}
+.card-content span i{
+    font-size: 2rem;
+    color: rgba(186, 168, 172, 0.7);
+}
+.card-details p{
+    font-style: italic;
+    color: #3a3a3a;
+    margin-bottom: 1rem;
+}
+.card-details h4{
+    text-align: right;
+    color: rgba(186, 168, 172, 0.7);
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: bold;
 }
 
 /*Make main element take up any surplus space to push footer down*/
