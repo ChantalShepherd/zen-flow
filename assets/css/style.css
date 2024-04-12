@@ -137,7 +137,7 @@ main {
         margin: 5px 0;
     }
 
-    /*Circle Image Styling*/
+/*Circle Image Styling*/
     #circle-image-bg {
         background: url("../images/circeimage.webp") no-repeat top center/cover; 
         height: 90vh;
@@ -153,7 +153,7 @@ main {
         align-items:center ;
         justify-content:center ;
     } 
-    
+ /*Sign up button section*/
     .pill {
         font-size: inherit;
         color: #3a3a3a;
@@ -176,6 +176,24 @@ main {
         display:flex;
         flex-direction: column;
     }
+/*Grid Gallery Section*/
+.collage{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display:flex;
+    flex-direction: column;
+}
+.row {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.grid::after{
+    content:"";
+    display:table;
+    clear:both;
+}
 
 /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
