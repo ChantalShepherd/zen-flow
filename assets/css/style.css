@@ -25,6 +25,7 @@ h1, h2, h3{
     letter-spacing: 2px;
     color: #2a2a2a;
 }
+
 /*Hides the heading  for meetup times without losing seo*/
 .hidden-heading{
     display: none;
@@ -34,18 +35,18 @@ h1, h2, h3{
 header {
 background-color: #ffffff;
 padding: 0 1rem;
-position:fixed;
+position: fixed;
 z-index: 99;
 width: 100%;
 box-shadow: 0 2px 2px #3a3a3a;
-display:flex;
+display: flex;
 justify-content: space-between;
 align-items: baseline;
 }
 
-header a{
+header a {
     text-decoration: none;
-    color:inherit;
+    color:inherit;    
 }
 
 /* Navigation menu */
@@ -54,10 +55,10 @@ header a{
     letter-spacing: 4px;
     list-style-type: none;
 }
+
 #menu > li {
     margin-bottom:1em;
 }
-
 
 /* Navbar with underlining*/
 .active {
@@ -97,9 +98,9 @@ main {
         position: relative;   
     }
 
-    /*Cover Text*/
+/*Cover Text*/
     #cover-text{
-        /*Final rgba value sets the transparency of the txt*/
+/*Final rgba value sets the transparency of the txt*/
         background-color:rgba(216, 198, 202, .7);
         font-size: 130%;
         position:absolute;
@@ -115,7 +116,7 @@ main {
     
 /* Reasons to join Section Styling */  
     #join{
-        width:90%;
+        width:100%;
         margin:20px;
         color:#3a3a3a
     }
@@ -139,25 +140,48 @@ main {
 
 /*Circle Image Styling*/
     #circle-image-bg {
-        background: url("../images/circeimage.webp") no-repeat top center/cover; 
-        height: 90vh;
-        width: 90vw;
+        background: url("../images/signup-3.jpg") no-repeat center/cover; 
+        height: 100vh;
+        width: 100vw;
         margin-bottom: 20px;
-        /*Makes the image into a circle*/
+/*Makes the image into a circle*/
         border-radius: 50%;
-        max-height: 300px;
-        max-width: 300px;
+        max-height: 250px;
+        max-width: 250px;
+        display: flex;
     }
-    #benefits-image{
+    .benefits-image{
         display: flex;
         align-items:center ;
         justify-content:center ;
     } 
- /*Sign up button section*/
-    .pill {
+
+/*Meetup times Section*/
+    #times{
+        background: url("../images/option4.jpg") no-repeat center/cover; 
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #times div{
+        color:#fafafa;
+        background-color: rgba(0, 0, 0, .6);
+        padding: 15px;
+        text-align: center;
+/*Keeps fluidity when expanding the screen*/
+        flex-basis: 200px;
+        flex-grow: 1;
+/*creates a grid of meetup times*/
+        border: 2px solid white;
+}
+    #times h3{
+        color:#fafafa;
+}
+
+/*Sign up button section*/
+    .sign {
         font-size: inherit;
-        color: #3a3a3a;
-        margin: 0.25em;
+        color: inherit, #3a3a3a;
+        margin: 0.25em 0.25em;
         padding: 0.5em 1em;
         font-family: "Oswald", sans-serif;
         background-color: rgba(216, 198, 202, .7);
@@ -168,7 +192,7 @@ main {
     .button {
         text-align: center;
     }
-    .pill:hover{
+    .sign:hover{
         background: rgba(186, 168, 172, 0.7);
     }
     #sign-up-button{        
@@ -178,7 +202,7 @@ main {
 
 /*Grid Gallery Section*/
 .collage{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
     display:flex;
     flex-direction: column;
@@ -187,6 +211,12 @@ main {
     float: left;
     width: 33.33%;
     padding: 5px;
+}
+.row p{
+    color:#3a3a3a;
+    font-size: 50px;
+    font-style: bold;
+    text-align: center;    
 }
 .grid::after{
     content:"";
@@ -270,30 +300,8 @@ main {
 }
 
 /*Make main element take up any surplus space to push footer down*/
-    flex: 1 0 auto;
+    flex:1 0 auto;
     margin-top:47px;
-}
-
-/*Meetup times Section*/
-#times{
-    background: url("../images/option4.jpg") no-repeat center/cover; 
-    display: flex;
-    flex-wrap: wrap;
-}
-#times div{
-    color:#fafafa;
-    background-color: rgba(0, 0, 0, .6);
-    padding: 15px;
-    text-align: center;
-    /*Keeps fluidity when expanding the screen*/
-    flex-basis: 200px;
-    flex-grow: 1;
-    /*creates a grid of meetup times*/
-    border: 2px solid white;
-}
-
-#times h3{
-    color:#fafafa;
 }
 
 /*Gallery Page*/

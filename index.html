@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Meta Tags for Search Engines -->
     <meta name="description" content="Zen Flow, wellness centre in Drogheda, Ireland, yoga classes, meditation classes, holistic health">
     <meta name="keywords" content="Zen Flow, yoga, meditation, classes, Drogheda, Ireland, wellness">
+    
     <!-- Title -->
     <title>Zen Flow | Discover Harmony Within</title>
+    
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">    
 </head>
@@ -19,155 +23,197 @@
 <body>
     <!-- Header -->
     <header>
-        <a href="index.html">
-            <h1 id="logo">Zen Flow</h1>
-        </a>
-        <!-- Navigation Dropdown Menu -->
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <!-- Navigation Menu in the Header -->
-        <nav>
-            <ul id="menu"
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="classes.html">Classes</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="signup.html">Sign Up</a></li>
-            </ul>
-        </nav>
-    </header>
+        <a href="index.html"><h1 id="logo">Zen Flow</h1></a>  
+        
+    <!-- Navigation Dropdown Menu -->
+    <input type="checkbox" id="nav-toggle" name="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        
+    <!-- Navigation Menu in the Header -->
+    <nav>
+        <ul id="menu"
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="gallery.html">About</a></li>
+            <li><a href="classes.html">Membership</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </nav>
+</header>
 
     <!-- Main Content -->
-    <main>
-        <!-- Cover Text Home Page -->
-        <section id="yoga">
-            <div id="cover-text">
-                <h2>Welcome to Zen Flow</h2>
-                <h3>Discover Harmony Within</h3>
-            </div>
-        </section>
+    <main>        
+    <!-- Cover Text Home Page -->
+    <section id="yoga">
+        <div id="cover-text">
+            <h2>Welcome to Zen Flow</h2>
+            <h3>Discover Harmony Within</h3>
+        </div>
+    </section>
 
-        <!-- Reasons to Join Section on Home Page -->
-        <section id="join">
-            <h2>Why Join Zen Flow?</h2>
-            <div id="benefits-body">
-                <div>
-                    <h3>Feel Healthy <i class="fa-solid fa-heart"></i></h3>
-                    <hr>
-                    <p>Discover balance and vitality with our tailored yoga classes. Nourish your body, mind, and spirit for overall well-being.</p>
-                </div>
-                <div>
-                    <h3>Feel Strong <i class="fa-solid fa-dumbbell"></i></h3>
-                    <hr>
-                    <p>Strengthen both body and mind with our empowering yoga sessions. Build resilience and confidence to face life's challenges head-on.</p>
-                </div>
+    <!-- Reasons to Join Section on Home Page -->
+    <section id="join">
+        <h2>Why Join Zen Flow?</h2>
+        <div id="benefits-body">
+            <div>
+                <h3>Feel Healthy <i class="fa-solid fa-heart"></i></h3>
+                <hr><p>Discover balance and vitality with our tailored yoga classes. Nourish your body, mind, and spirit for overall well-being.</p>
             </div>
-            <div id="benefits-mental">
-                <div>
-                    <h3>Get Social <i class="fa-solid fa-user-group"></i></h3>
-                    <hr>
-                    <p>Join our welcoming community and share the joy of yoga with others. Connect, laugh, and support each other on your wellness journey.</p>
-                </div>
-                <div>
-                    <h3>Feel Aware <i class="fa-solid fa-eye"></i></h3>
-                    <hr>
-                    <p>Awaken your senses and deepen your awareness through the practice of meditation. Embrace mindfulness and unlock a newfound sense of clarity and presence.</p>
-                </div>
+            <div>
+                <h3>Feel Strong <i class="fa-solid fa-dumbbell"></i></h3>
+                <hr><p>Strengthen both body and mind with our empowering yoga sessions. Build resilience and confidence to face life's challenges head-on.</p>
+            </div>
+            </div>
+    <!--Second Div in the same section-->
+        <div id="benefits-mental">
+            <div>
+                <h3>Get Social <i class="fa-solid fa-user-group"></i></h3>
+                <hr><p>Join our welcoming community and share the joy of yoga with others. Connect, laugh, and support each other on your wellness journey.</p>
+            </div>
+            <div>
+                <h3>Feel Aware <i class="fa-solid fa-eye"></i></h3>
+                <hr><p>Awaken your senses and deepen your awareness through the practice of meditation. Embrace mindfulness and unlock a newfound sense of clarity and presence.</p>
+            </div>
             </div>
                 
-        <!-- Circle Image Section on Home Page -->   
-            <div id="benefits-image">  
-                <div id="circle-image-bg"></div>
+    <!-- Circle Image Section on Home Page -->   
+        <div class="benefits-image">  
+            <div id="circle-image-bg"></div>
+        </div>
+    </section> 
+    
+    <!--Classes Section-->
+    <section id="meetup">
+        <h2 class="hidden-heading">Meet Up Times</h2>        
+        <div id="times">
+            <div>
+                <h3>Sunrise Yoga <i class="fa-solid fa-sun"></i></h3>
+                <p>Class: Sunrise Yoga</p>
+                <p>Time: 6.00am - 7.00am</p>
+                <p>Date: Every Monday and Wednesday</p>
+                <p>Location: Zen Flow Wellness Center, Drogheda</p>
             </div>
-                </div>  
-            </section>   
-
-        <!---Sign Up Button Section--> 
-        <section id="sign-up-button">
-            <div class="button">
-                <button class="pill"><a href="signup.html">Sign Up</a></button>
+            <div>
+                <h3>Midday Meditation <i class="fa-solid fa-rainbow"></i></h3>
+                <p>Class: Midday Mindfulness</p>
+                <p>Time: 12.00pm - 1.00pm</p>
+                <p>Date: Every Tuesday and Thursday</p>
+                <p>Location: Zen Flow Wellness Center, Drogheda</p>
             </div>
-        </section>
+            <div>
+                <h3>Evening Relaxation <i class="fa-solid fa-moon"></i></h3>
+                <p>Class: Sunset Yoga and Meditation</p>
+                <p>Time: 6.30pm - 7.30pm</p>
+                <p>Date: Monday to Friday</p>
+                <p>Location: Zen Flow Wellness Center, Drogheda</p>
+            </div>
+            <div>
+                <h3>Weekend Wellness <i class="fa-solid fa-star"></i></h3>
+                <p>Class: Serenity Flow</p>
+                <p>Time: 10.00am - 11.00am</p>
+                <p>Date: Every Saturday</p>
+                <p>Location: Zen Flow Wellness Center, Drogheda</p>
+            </div>
+            <div>
+                <h3>Community Connection <i class="fa-solid fa-face-smile-beam"></i></h3>
+                <p>Class: Stretch and Social</p>
+                <p>Time: 3.00pm to 4.00pm</p>
+                <p>Date: Every Sunday</p>
+                <p>Location: Zen Flow Wellness Center, Drogheda</p>
+            </div>
+        </div>    
+    </section>
 
-        <!---Grid Images Section-->
-        <section class="collage">
-            <div class="grid">
-                <div class="row">
-                    <img src="assets/images/feelalive.jpg" alt="lady with closed eyes" width="100%">
-                </div>
-                <div class="row">
-                    <img src="assets/images/feellove.jpg" alt="lady breathing calmly" width="100%">
-                </div> 
-                <div class="row">
-                    <img src="assets/images/feelsocial.jpg" alt="2 ladies hugging" width="100%">
-                </div>                                
-           </div>
-        </section>
+    <!---Sign Up Button Section--> 
+    <section id="sign-up-button">
+        <div class="button">
+            <button class="sign"><a href="signup.html">Sign Up</a></button>
+        </div>
+    </section>
 
-        <!--Reviews Section-->
-        <section class="review">
-            <div class="comments">
-            <div class="container-left">
-                <h1>Read what our customers have to say about us</h1>
+    <!---Grid Images Section-->
+    <section class="collage">
+        <div class="grid">
+            <div class="row">
+                <img src="assets/images/feelalive.jpg" alt="lady with closed eyes" width="100%">
+                <p>Live</p>
+            </div>
+            <div class="row">
+                <img src="assets/images/feellove.jpg" alt="lady breathing calmly" width="100%">
+                <p>Love</p>
+            </div> 
+            <div class="row">
+                <img src="assets/images/feelsocial.jpg" alt="2 ladies hugging" width="100%">
+                <p>Laugh</p>
+            </div>                                
+        </div>
+    </section>
+
+    <!--Reviews Section-->
+    <section class="review">
+        <div class="comments">
+        <div class="container-left">
+            <h1>Read what our customers have to say about us</h1>
+            <p>
+                "Customers adore Zen Flow for its tranquil ambiance and transformative practices. 
+                 Our expert-led yoga and meditation sessions offer a sanctuary for self-discovery and rejuvenation. 
+                 With a warm community and nurturing environment, Zen Flow empowers individuals to find balance, clarity, and renewed energy in their daily lives."
+            </p>
+            <p>
+                "Zen Flow has made a meaningful impact on individuals worldwide, 
+                with a remarkable percentage of our diverse clientele reporting enhanced well-being and inner peace 
+                through our tailored yoga and meditation programs."
+            </p>
+                <button><a href="signup.html">Join us Today</a></button>
+        </div>  
+
+        <div class="container-right">
+            <div class="card">
+                <img src="assets/images/review1.png" alt="user1"/>
+            <div class="card-content">
+                <span><i class="fa-solid fa-quote-left"></i></span>
+            <div class="card-details">
                 <p>
-                    "Customers adore Zen Flow for its tranquil ambiance and transformative practices. 
-                     Our expert-led yoga and meditation sessions offer a sanctuary for self-discovery and rejuvenation. 
-                     With a warm community and nurturing environment, Zen Flow empowers individuals to find balance, clarity, and renewed energy in their daily lives."
+                    Zen Flow's yoga practice has been transformative! Instructors are knowledgeable, creating a welcoming atmosphere. 
+                    Noticed significant improvements in flexibility, strength, and well-being. 
+                    Highly recommend.
                 </p>
+                <h4>- Alex Johnson</h4>
+            </div>
+            </div>
+            </div>
+                
+            <div class="card">
+                <img src="assets/images/review2.png" alt="user2"/>
+            <div class="card-content">
+                <span><i class="fa-solid fa-quote-left"></i></span>
+            <div class="card-details">
                 <p>
-                    "Zen Flow has made a meaningful impact on individuals worldwide, 
-                    with a remarkable percentage of our diverse clientele reporting enhanced well-being and inner peace 
-                    through our tailored yoga and meditation programs."
+                    Zen Flow's classes are exceptional! Catering to all levels, with varied sessions, it's always exciting. 
+                    The serene environment and friendly community make every visit joyful. 
+                    Zen Flow is my sanctuary..
                 </p>
-                <button>Read our success stories</button>
-            </div>  
-            <div class="container-right">
-                <div class="card">
-                    <img src="assets/images/review1.png" alt="user1"/>
-                    <div class="card-content">
-                        <span><i class="fa-solid fa-quote-left"></i></span>
-                        <div class="card-details">
-                            <p>
-                                Zen Flow's yoga practice has been transformative! Instructors are knowledgeable, creating a welcoming atmosphere. 
-                                Noticed significant improvements in flexibility, strength, and well-being. 
-                                Highly recommend.
-                            </p>
-                            <h4>- Alex Johnson</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="assets/images/review2.png" alt="user2"/>
-                    <div class="card-content">
-                        <span><i class="fa-solid fa-quote-left"></i></span>
-                        <div class="card-details">
-                            <p>
-                                Zen Flow's classes are exceptional! Catering to all levels, with varied sessions, it's always exciting. 
-                                The serene environment and friendly community make every visit joyful. 
-                                Zen Flow is my sanctuary..
-                            </p>
-                            <h4>- Emma Anderson</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="assets/images/review3.png" alt="user3"/>
-                    <div class="card-content">
-                        <span><i class="fa-solid fa-quote-left"></i></span>
-                        <div class="card-details">
-                            <p>
-                                Zen Flow reshaped my yoga journey. Mindfulness and breathwork helped manage stress, finding inner peace. 
-                                Instructors offer personalized guidance, making it more than just a workout—a journey to self-discovery.
-                            </p>
-                            <h4>- Oishin Mcgowan</h4>
-                        </div>
-                    </div>
-                </div>
+                    <h4>- Emma Anderson</h4>
+            </div>
+            </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/images/review3.png" alt="user3"/>
+            <div class="card-content">
+                <span><i class="fa-solid fa-quote-left"></i></span>
+            <div class="card-details">
+                <p>
+                    Zen Flow reshaped my yoga journey. Mindfulness and breathwork helped manage stress, finding inner peace. 
+                    Instructors offer personalized guidance, making it more than just a workout—a journey to self-discovery.
+                </p>
+                    <h4>- Oishin Mcgowan</h4>
+            </div>
+            </div>
+            </div>
             </div>
         </div>
-        </section>
-
-    </main>
+    </section>
+</main>
 
     <!-- Footer -->
     <footer>
@@ -178,6 +224,7 @@
             <li><a href="https://www.youtube.com/results?search_query=Zen+Flow" target="_blank" rel="noopener"aria-label="View our You Tube Page (Opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a></li>                     
         </ul>
     </footer>
+
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/8c7d853858.js" crossorigin="anonymous"></script>
 </body>
