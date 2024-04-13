@@ -300,11 +300,11 @@ main {
 }
 
 /*Make main element take up any surplus space to push footer down*/
-    flex:1 0 auto;
-    margin-top:47px;
+    flex: 1 0 auto;
+    margin-top: 47px;
 }
 
-/*Gallery Page*/
+/*About Gallery Page*/
 .container{
     display: flex;
     flex-direction: column;
@@ -337,6 +337,66 @@ main {
     width: 100%;
     padding-bottom: 15px;
     border-radius: 5px;
+}
+/*Membership Page*/
+.membership {
+    background-color: #ffffff;
+}
+.membership_grid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}
+.membership_card {
+    padding: 2em;
+    text-align: center;
+    background-color: rgba(216, 198, 202, .7);
+    box-shadow: 5px 5px 20px rgba(186, 168, 172, 0.7);
+}
+.membership_card h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #3a3a3a;
+} 
+.membership_card h2 {
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #3a3a3a;
+}
+.membership_card h2 sup {
+    font-size: 1.5rem;
+}
+.membership_card h3 {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #3a3a3a;
+}
+.membership_card p {
+    margin-bottom: 1.5rem;
+    color: #3a3a3a;
+}
+.membership_btn {
+    font-size: 0.9rem;    
+    width: calc(100% - 4rem);
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    transform: translateY(calc(50% + 2rem));
+    background-color: #fafafa;
+    padding: 8px;
+    margin-bottom: auto;
+}
+.section_header {
+    font-size: 4rem;
+    text-align: center;       
+}
+.section_subheader {
+    font-size: 2rem;
+    text-align: center;
 }
 
 /* Form */
