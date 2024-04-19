@@ -173,6 +173,41 @@ main {
         color: rgba(234, 123, 219, 0.549);
     }
 
+/*Benefits Section*/
+.queen{
+    background-color: #fafafa;
+}
+.queen-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+.queen-card span{
+    margin-bottom: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px; 
+    aspect-ratio: 1;
+    background-color: rgba(216, 198, 202, .7); 
+    border-radius: 50%;  
+    margin-top: 1rem;
+    
+}
+.queen-card span img{
+    max-width: 40px;
+}
+.queen-card h4{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #3a3a3a;
+}
+.queen-card p{
+    line-height: 1.5rem;
+    color:rgba(186, 168, 172, 0.7);
+    display: table-row;  
+}
     
 
 /*Meetup times Section*/
