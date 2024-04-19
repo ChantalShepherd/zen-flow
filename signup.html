@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Meta Tags for Search Engines -->
     <meta name="description" content="Zen Flow, wellness centre in Drogheda, Ireland, yoga classes, meditation classes, holistic health">
     <meta name="keywords" content="Zen Flow, yoga, meditation, classes, Drogheda, Ireland, wellness">
+
     <!-- Title -->
     <title>Zen Flow</title>
+
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">  
 </head>
@@ -19,16 +23,15 @@
 <body>
     <!-- Header -->
     <header>
-        <a href="index.html">
-            <h1 id="logo">Zen Flow</h1>
-        </a>
+        <a href="index.html"><h1 id="logo">Zen Flow</h1></a>
+
         <!-- Navigation Dropdown Menu -->
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+
         <!-- Navigation Menu in the Header -->
         <nav>
-            <ul id="menu"
-            <ul>
+            <ul id="menu"            
                 <li><a href="index.html">Home</a></li>
                 <li><a href="gallery.html">About</a></li>
                 <li><a href="classes.html">Membership</a></li>                
@@ -54,21 +57,27 @@
                 <label for="phone">Telephone Number</label>
                 <input type="tel" name="telephone_number" id="telephone_number" class="number-input" required>
                 <br>
-                <div class="radio-buttons">
-                    <div>
-                        <label for="yogas">Yoga</label>
-                        <input type="radio" name="wellness_preference" id="yogas" value="yogas" required checked>
-                    </div>
-                    <div>
-                        <label for="meditation">Meditation</label>
-                        <input type="radio" name="wellness_preference" id="meditation" value="meditation" required checked>                        
-                    </div>
-                    <div>
-                        <label for="both">Both</label>
-                        <input type="radio" name="wellness_preference" id="both" value="both" required>
-                    </div>
+                <select name="membership_preference" id="membership_preference" class="dropdown-input" required>
+                    <option value="" disabled selected>Choose Your Membership</option>
+                    <option value="Weekly Membership">Weekly Membership</option>
+                    <option value="Monthly Membership">Monthly Membership</option>
+                    <option value="Yearly Membership">Yearly Membership</option>
+                </select>                
+                    <div class="radio-buttons">
+                <div>
+                    <label for="yogas">Yoga</label>
+                    <input type="radio" name="wellness_preference" id="yogas" value="yogas" required checked>
                 </div>
-                <button type="submit" class="join-button">Let's Go!</button>
+                <div>
+                    <label for="meditation">Meditation</label>
+                    <input type="radio" name="wellness_preference" id="meditation" value="meditation" required checked>                        
+                </div>
+                <div>
+                    <label for="both">Both</label>
+                    <input type="radio" name="wellness_preference" id="both" value="both" required>
+                </div>
+                </div>
+                    <button type="submit" class="join-button">Let's Go!</button>
             </form>
         </section>
     </main>

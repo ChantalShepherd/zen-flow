@@ -48,6 +48,17 @@ header a {
     text-decoration: none;
     color:inherit;    
 }
+.nav-logo{
+    gap: 2rem;
+    display: flex;
+}
+.nav-logo img{
+    max-width: 100px;
+}
+.nav-logo span{
+    text-align: center;
+    display: flex;
+}
 
 /* Navigation menu */
 #menu {
@@ -95,7 +106,7 @@ main {
         height: 800px;
         width:100%;
         background: url("../images/yogaabout2.webp") no-repeat center center/cover;     
-        position: relative;   
+        position: relative;
     }
 
 /*Cover Text*/
@@ -118,7 +129,8 @@ main {
     #join{
         width:100%;
         margin:20px;
-        color:#3a3a3a
+        color:#3a3a3a;
+        background-color: #fafafa;
     }
     #join h2{
         margin-bottom: 20px;
@@ -133,24 +145,23 @@ main {
     #benefits p{
         padding: 0 20px;
     }
-    hr {
+    #benefits hr {
         border-top: 1px solid #3a3a3a;
         margin: 5px 0;
     }
 
 /*Circle Image Styling*/
     #circle-image-bg {
-        background: url("../images/signup-3.jpg") no-repeat center/cover; 
-        height: 100vh;
-        width: 100vw;
+        background: url("../images/signup-3.jpg") no-repeat top center/cover; 
+        height: 90vh;
+        width: 90vw;
         margin-bottom: 20px;
 /*Makes the image into a circle*/
         border-radius: 50%;
         max-height: 250px;
-        max-width: 250px;
-        display: flex;
+        max-width: 250px;        
     }
-    .benefits-image{
+    #benefits-image{
         display: flex;
         align-items:center ;
         justify-content:center ;
@@ -276,7 +287,7 @@ main {
 }
 .card img{
     max-width: 75px;
-    border-radius: ;: 100%;
+    border-radius:  100%;
 }
 .card_content{
     display: flex;
@@ -445,6 +456,16 @@ main {
     border-radius: 2px;
     padding: 0 5px;
 }
+.dropdown-input{
+    background: transparent;
+    color: #fafafa;    
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
 .radio-buttons {
     width: 100%;
     display: flex;
@@ -475,7 +496,7 @@ main {
     color:#3a3a3a;
 }
 
-/* Media Query large or lanscape phones (576px and up) */
+/* Media Query large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos{
         column-count: 2;
@@ -522,7 +543,7 @@ main {
 
    /*Benefits Section*/
    #benefits-body,
-   #benefits-mental{
+   #benefits-mental {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -562,7 +583,7 @@ main {
 }
 
 /* Large devices (laptops and  desktops 992px and up) */
-@media screen and (min-width:992px){
+@media screen and (min-width:992px) {
     #menu a:hover{
         border-bottom:1px solid #3a3a3a;
     }
@@ -573,7 +594,7 @@ main {
 }
 
 /*Benefits Section*/
-@media (min-width:1200px){
+@media screen and (min-width: 1200px) {
     #benefits {
         display: flex;
         flex-direction: row;
