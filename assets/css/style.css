@@ -407,6 +407,69 @@ main {
 }
 
 /*About Gallery Page*/
+.us-content p {
+    background-color: #fafafa;
+    font-style: italic;
+    font-size: 3rem;
+    color: #3a3a3a;
+    text-align: center;   
+}
+.section-header {
+    margin-bottom: 20px;
+}
+.quote-left {
+    top: 0;
+    left: 0;
+    color: rgba(234, 123, 219, 0.549);
+    font-size: 2rem;
+}
+.quote-right {
+    bottom: 0;
+    right: 0;
+    color: rgba(234, 123, 219, 0.549);
+    font-size: 2rem;
+}
+.posts{
+    background-color: rgba(201, 119, 216, 0.322);    
+}
+.posts-grid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.posts-card{
+    background-color: aqua;
+    box-shadow: 5px 5px 20px rgba(60, 60, 60, 0.6);
+}
+.posts-content{
+    padding: 2rem;
+}
+.posts-date{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.posts-date span{
+    font-size: 3rem;
+    font-weight: 300;
+    color: red;
+}
+.posts-date div{
+    color: blueviolet;
+}
+.posts-content h4{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: chartreuse;
+}
+.posts-content p{
+    line-height: 1.5rem;
+    color: pink;
+}
+
 .container{
     display: flex;
     flex-direction: column;
