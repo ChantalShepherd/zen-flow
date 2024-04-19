@@ -477,7 +477,7 @@ main {
     width: 100%;
     border-radius: 8px;
 }
-
+/*START HERE ON SUNDAY*/
 
 .container{
     display: flex;
@@ -555,7 +555,7 @@ main {
     margin-bottom: 1.5rem;
     color: #3a3a3a;
 }
-.membership_btn {
+membership-card a {
     font-size: 0.9rem;    
     width: calc(100% - 4rem);
     font-weight: 600;
@@ -565,6 +565,8 @@ main {
     background-color: #fafafa;
     padding: 8px;
     margin-bottom: auto;
+    text-align: center;
+    position: relative;
 }
 .section_header {
     font-size: 4rem;
