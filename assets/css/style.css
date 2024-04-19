@@ -126,7 +126,7 @@ main {
     }
 
     /*Free Trial Button*/
-    .free-trial{
+    a {
         background-color:rgba(186, 168, 172, 0.7);
         color:#fafafa;
         display: flex;
@@ -137,9 +137,10 @@ main {
         border: none;
         text-decoration: none;
         padding: 10px 10px;
-        font-family: "Lato", sans-serif;          
+        font-family: "Lato", sans-serif;
+        width:fit-content;          
     }
-    .free-trial:hover{
+    a:hover{
         background-color: #fafafa;
         color: #3a3a3a;
     }
@@ -324,13 +325,11 @@ main {
     color: rgba(0, 0, 0, 0.762);
 }
 
-
-
-
 /*Reviews Section*/
 .review{
     background: url("../images/bg.jpg") no-repeat top center/cover;
     display: flex;
+    margin-bottom: 4rem;
 }
 .comments{
     max-width: 1200px;
@@ -340,7 +339,7 @@ main {
     grid-template-columns: repeat(2, 1fr);
     gap: 10rem;
 }
-.container-left h1{
+.container-left h2{
     margin-bottom: 2rem ;
     font-size: 2.5rem; ;
     font-weight: 500;
@@ -350,7 +349,7 @@ main {
     color: #3a3a3a;
     margin-bottom: 1rem;
 }
-.container-left button{
+.container-left a{
     padding: 1rem 2rem;
     margin-top: 1rem;
     outline: none;
@@ -360,7 +359,7 @@ main {
     font-size: 1rem;
     cursor:pointer;
 }
-.container-left button:hover{
+.container-left a:hover{
     background: rgba(186, 168, 172, 0.7);
 }
 .container-right{
@@ -441,6 +440,8 @@ main {
     padding-bottom: 15px;
     border-radius: 5px;
 }
+
+
 /*Membership Page*/
 .membership {
     background-color: #ffffff;
@@ -512,6 +513,7 @@ main {
     display: flex;
     flex-direction: column;
 }
+
 #signup {
     background-image: url("../images/signup-1.jpg");
     background-size: cover;
@@ -570,6 +572,9 @@ main {
     font-size: 100%;
     background-color: rgba(216, 198, 202, .7);
     color: #fafafa;
+}
+option{
+    color:#3a3a3a;
 }
 
 /* Footer */
@@ -659,8 +664,7 @@ main {
         position: relative;
     }
 #signup-form {
-        max-width: 400px;
-        position: absolute;
+        max-width: 400px;        
         left: 10%;
         top: 150px;
     }
