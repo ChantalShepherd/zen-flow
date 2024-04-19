@@ -429,46 +429,55 @@ main {
     color: rgba(234, 123, 219, 0.549);
     font-size: 2rem;
 }
-.posts{
-    background-color: rgba(201, 119, 216, 0.322);    
+
+/*Posts Section*/
+.posts {
+    background-color: #ffffff;
 }
 .posts-grid {
     margin-top: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
-.posts-card{
-    background-color: aqua;
-    box-shadow: 5px 5px 20px rgba(60, 60, 60, 0.6);
+.posts-card {
+    background-color: #ffffff;
+    box-shadow: 5px 5px 20px rgba(186, 168, 172, 0.7);
 }
-.posts-content{
+.posts-content {
     padding: 2rem;
 }
-.posts-date{
+.posts-date {
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
     gap: 1rem;
 }
-.posts-date span{
+.posts-date span {
     font-size: 3rem;
     font-weight: 300;
-    color: red;
+    color: rgba(234, 123, 219, 0.549);
 }
-.posts-date div{
-    color: blueviolet;
+.posts-date div {
+    color: #3a3a3a;
 }
-.posts-content h4{
+.posts-content h4 {
     margin-bottom: 1rem;
     font-size: 1.2rem;
     font-weight: 500;
-    color: chartreuse;
+    color: #3a3a3a;
 }
-.posts-content p{
+.posts-content p {
     line-height: 1.5rem;
-    color: pink;
+    color: #3a3a3a;
 }
+.post-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
 
 .container{
     display: flex;
