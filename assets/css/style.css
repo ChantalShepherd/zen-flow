@@ -108,6 +108,18 @@ main {
         background: url("../images/yogaabout2.webp") no-repeat center center/cover;     
         position: relative;
     }
+    #yoga-about{
+        height: 950px;
+        width:100%;
+        background: url("../images/yogaservices.webp") no-repeat center center/cover;     
+        position: relative; 
+    }
+    #yoga-members{
+        height: 800px;
+        width:100%;
+        background: url("../images/pose2.jpg") no-repeat center center/cover;     
+        position: relative; 
+    }
 
 /*Cover Text*/
     #cover-text{
@@ -649,6 +661,19 @@ option{
 /* Footer */
 
 /* Social Media Icons */
+.footer-span{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #3a3a3a;
+}
+.footer-info p{
+    text-align: center;
+    color: #3a3a3a;
+}
+.footer-copyright{
+    text-align: center;
+    color: #3a3a3a;
+}
 #social-media{
     text-align:center;
     padding:20px;
@@ -657,10 +682,11 @@ option{
     list-style-type:none;
 }
 #social-media i {
-    font-size: 160%;
+    font-size: 250%;
     padding: 5%;
     color:#3a3a3a;
 }
+
 
 /* Media Query large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
