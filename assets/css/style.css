@@ -406,33 +406,10 @@ main {
     margin-top: 47px;
 }
 
-/*About Gallery Page*/
-.us-content p {
-    background-color: #fafafa;
-    font-style: italic;
-    font-size: 3rem;
-    color: #3a3a3a;
-    text-align: center;   
-}
-.section-header {
-    margin-bottom: 20px;
-}
-.quote-left {
-    top: 0;
-    left: 0;
-    color: rgba(234, 123, 219, 0.549);
-    font-size: 2rem;
-}
-.quote-right {
-    bottom: 0;
-    right: 0;
-    color: rgba(234, 123, 219, 0.549);
-    font-size: 2rem;
-}
-
 /*Posts Section*/
 .posts {
     background-color: #ffffff;
+    margin-bottom: 4rem;
 }
 .posts-grid {
     margin-top: 4rem;
@@ -467,7 +444,7 @@ main {
     margin-bottom: 1rem;
     font-size: 1.2rem;
     font-weight: 500;
-    color: #3a3a3a;
+    color: rgba(176, 158, 162, .7);    
 }
 .posts-content p {
     line-height: 1.5rem;
@@ -477,42 +454,60 @@ main {
     width: 100%;
     border-radius: 8px;
 }
-/*START HERE ON SUNDAY*/
 
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 40px 20px 0 20px;
+/*Us Section*/
+.us{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
-.container .heading{
-   width: 50%;
-   padding-bottom: 50px; 
+
+.us-content p {
+    background-color: #fafafa;
+    font-style: italic;
+    font-size: 3rem;
+    color: #3a3a3a;
+    text-align: center;   
 }
-.container .heading h3{
-    font-size: 2em;
-    font-weight: bolder;
-    padding-bottom: 2px;
-    border-bottom: 3px solid #3a3a3a;
+.section-header {
+    margin-bottom: 20px;
 }
-.container .box{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.quote-left {
+    top: 0;
+    left: 0;
+    color: rgba(234, 123, 219, 0.549);
+    font-size: 2rem;
 }
-.container .box .column{
-    display: flex;
-    flex-direction: column;
-    width: 32.5%;
+.quote-right {
+    bottom: 0;
+    right: 0;
+    color: rgba(234, 123, 219, 0.549);
+    font-size: 2rem;
 }
-.container .box .column img{
+.section-founder{
+    font-size: 1.5rem;
+}
+
+/*Gallery Section*/
+.photos-grid {
+    display: grid;
+    margin-top: 4rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.photos-card {
     width: 100%;
-    padding-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.photos-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 5px;
 }
-
 
 /*Membership Page*/
 .membership {
