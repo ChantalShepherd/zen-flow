@@ -260,21 +260,21 @@ main {
     background-color: rgba(255, 255, 255, 0.5); /* Transparent white background */
     padding: 20px; /* Add padding for content */
     border-radius: 10px; /* Add some border radius for rounded corners */
-    text-align: center; /* Center-align the text */    
+    text-align: center;    
 }
 
 .classes-content button {
-    background-color: rgba(216, 198, 202, .7); /* Transparent black background for button */
-    color: #fff; /* White text color for button */
+    background-color: rgba(216, 198, 202, .7); 
+    color: #fff; 
     border: none; /* Remove button border */
     padding: 10px 20px; /* Add padding for button */
-    border-radius: 5px; /* Add some border radius for rounded corners */
-    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px; 
+    cursor: pointer; 
     font-family: "lato", sans-serif;
     font-size: 40px;
 }
 .classes-content button:hover {
-    background-color: rgba(0, 0, 0, 0.7); /* Darken button background on hover */
+    background-color: rgba(0, 0, 0, 0.7); 
 } 
 
 /*Meetup times Section*/
@@ -526,7 +526,7 @@ main {
 /*Membership Page*/
 .membership {
     background-color: #ffffff;
-    margin-bottom: 4rem;
+    margin-bottom: auto;
 }
 .membership_grid {
     margin-top: 4rem;
@@ -581,7 +581,6 @@ main {
     transform: translateX(-50%);
     display: inline-block;
 }
-
 .section_header {
     font-size: 4rem;
     text-align: center;       
@@ -590,7 +589,6 @@ main {
     font-size: 2rem;
     text-align: center;
 }
-
 
 /* Form */
 main {
@@ -609,11 +607,13 @@ main {
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
+    margin-bottom: 1.5rem;    
 }
 #signup-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
+    margin-top: 17rem;
 }
 #signup-form > h2 {
     color: #fafafa;
@@ -670,7 +670,8 @@ option{
 
 /* Social Media Icons */
 .footer-container{
-    background-color: rgba(216, 198, 202, .7);
+    background-color: #ffffff;
+    margin: auto;
 }
 .footer-span{
     text-align: center;
@@ -686,11 +687,11 @@ option{
     color: #3a3a3a;
 }
 #social-media{
-    text-align:center;
-    padding:20px;
-    display:flex;
-    justify-content:space-evenly;
-    list-style-type:none;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 #social-media i {
     font-size: 250%;
