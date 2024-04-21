@@ -112,13 +112,15 @@ main {
         height: 950px;
         width:100%;
         background: url("../images/yogaservices.webp") no-repeat center center/cover;     
-        position: relative; 
+        position: relative;
+        margin-bottom: 3rem; 
     }
     #yoga-members{
         height: 800px;
         width:100%;
         background: url("../images/pose2.jpg") no-repeat center center/cover;     
-        position: relative; 
+        position: relative;
+        margin-bottom: 4rem; 
     }
 
 /*Cover Text*/
@@ -341,7 +343,7 @@ main {
 .review{
     background: url("../images/bg.jpg") no-repeat top center/cover;
     display: flex;
-    margin-bottom: 4rem;
+    margin-bottom: 8rem;
 }
 .comments{
     max-width: 1200px;
@@ -505,7 +507,7 @@ main {
     margin-top: 4rem;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 8rem;
 }
 .photos-card {
     width: 100%;
@@ -524,6 +526,7 @@ main {
 /*Membership Page*/
 .membership {
     background-color: #ffffff;
+    margin-bottom: 4rem;
 }
 .membership_grid {
     margin-top: 4rem;
@@ -536,6 +539,7 @@ main {
     text-align: center;
     background-color: rgba(216, 198, 202, .7);
     box-shadow: 5px 5px 20px rgba(186, 168, 172, 0.7);
+    position: relative;
 }
 .membership_card h4 {
     font-size: 1rem;
@@ -562,19 +566,22 @@ main {
     margin-bottom: 1.5rem;
     color: #3a3a3a;
 }
-membership-card a {
+.membership_card a {
     font-size: 0.9rem;    
     width: calc(100% - 4rem);
     font-weight: 600;
     letter-spacing: 1px;
-    border-radius: 2px;
-    transform: translateY(calc(50% + 2rem));
+    border-radius: 4px;
     background-color: #fafafa;
+    color: #3a3a3a;
     padding: 8px;
-    margin-bottom: auto;
-    text-align: center;
-    position: relative;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
 }
+
 .section_header {
     font-size: 4rem;
     text-align: center;       
@@ -583,6 +590,7 @@ membership-card a {
     font-size: 2rem;
     text-align: center;
 }
+
 
 /* Form */
 main {
@@ -596,7 +604,7 @@ main {
 }
 
 #signup {
-    background-image: url("../images/signup-1.jpg");
+    background-image: url("../images/yogacontact.jpg");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -661,6 +669,9 @@ option{
 /* Footer */
 
 /* Social Media Icons */
+.footer-container{
+    background-color: rgba(216, 198, 202, .7);
+}
 .footer-span{
     text-align: center;
     font-size: 1.2rem;
