@@ -39,212 +39,202 @@ I came to the conclusion that the best path forward would be to build a Service 
 
 This above preplanning helped me to determine the type of project & industry to build for.
 
-### User
-> As a user I want to be able to find a mechanic in my local area to fix my car.  
-> As a user I want to be able to contact the merchant online.  
-> As a user I want to be able to request a quote online.  
-> As a user I want to be able to see evidence of the merchants work & read testimonials as proof of work.  
-> As a user I want to be able to find out when the business is open.
+### Strategy Plane
+User
+> As a user I want to be able to find a wellness centre that caters to all types of yoga.  
+> As a user I want to be able to signup to classes straight online.
+> As a user I want to be able to see evidence of the merchants work & read testimonials as proof.  
+> As a user I want to be able to find out when and where the classes ran.
 
-### Business Owner
+Business Owner
 > As the site owner I want to be able to showcase my business to prospective customers.  
-> As the site owner I want to build trust and showcase details of my family run business and work completed.  
-> As the site owner I want to create leads and provide customers a way to book in and/or request quotes.  
-> As the site owner I want to use this website to attract more business from customers in and around Belfast. 
-> As the site owner I want to show the user my business opening hours.   
+> As the site owner I want to build trust and showcase details of classes that i have conducted.  
+> As the site owner I want to create leads and provide customers a way to sign up online. 
 
-## Scope Plane
+### Scope Plane
 > The website should have a Navigation menu that is consistent across all pages and devices.  
 > The website should have a welcome message for the user explaining to them who we are and what we do.  
-> The website should neatly and appropriatly list the services we provide to the user.  
-> The website should give the user proof of work completed through testimonials and/or a portoflio of work done or in progress.  
-> The website should give the user a way to contact the business for quotes or consultations through a form.  
-> The website should give the user more contact methods including phone number and the physical address.  
-> The website should include a map so the user can plan their route to the business. 
-> The website should include opening hours for the user to view on all pages. 
+> The website should neatly and appropriatly list the membership plans we provide to the user.  
+> The website should give the user proof of work completed through testimonials.  
+> The website should give the user a way to signup through a form. 
+> The website should give the user more contact via a physical address.
 
 ## Structure Plane
-> To acheieve the goals of the above the website should include at least 4 pages consisting of:  Home, About, Portfolio, Contact.  
+> To acheieve the goals of the above the website should include at least 4 pages consisting of:  Home, About, Membership and Signup.  
 
 **Home Page**
 > Navigation with links  
-> Hero welcome message with call to action to take user to contact form.  
-> Service card section showcasing the many things that we can repair.
+> Queen welcome message with call to action to take user to signup form.  
+> Information regarding various classes provided with images. 
+> Explanation of the benefits of Yoga.
 > Testimonials showcasing reviews and work completed from users of this business.
-> Footer section with opening hours of the business along with links to the businesses social media pages.
+> Footer section with adress of the business along with links to the businesses social media pages.
 
-**About**
-> The about page should show a picture of the business owner.  
-> The about page should explain any relevant information about the business in text format.  
+**About Page**
+> Queen welcome message with call to action to take user to signup form.  
+> Showcases blog posts.
+> Owner testimony message to inspire users.
+> Gallery of images of classes taken place. 
+> > Footer section with adress of the business along with links to the businesses social media pages.
 
-**Portfolio**
-> The portfolio page should show images in an organised responsive fashion showing proof of work complete or in progress. 
+**Membership**
+> Queen welcome message with call to action to take user to signup form. 
+> Cards displaying prices of different memberships. 
 
-**Contact**
-> The contact page should have a contact form for the user to get in touch or request quote.  
+**SignUp**
+> A form for the user to sign up to yoga classes.  
 > The form should collect contact details for the customer so that the merchant can contact them back.
-> The form should include an option for the user to select if they want to receive promotional offers and merchant collect e-mail addresses.
-> The contact page should include multiple forms or contact including phone, address and a map of the business location.
+> The form should include an option for the user to select if they want to choose a membership. 
+> The form should include information that gives the user a choice of selecting a type of wellness they are interested in which will give usueful data to the merchant.
 > The contact form should give user feedback on submission.
 
 ## Skeleton Plane
 
 ### Home Page Desktop Wireframe
-![Home Page Desktop Wireframe](assets/images/wireframes//wireframe1.png)
+WIREFRAME IMAGE
 
 ### Home Page mobile wireframe
-![Home page mobile responsive Wireframe](assets/images/wireframes//wireframe2.png)
+RESPONSIVE WIREFRAME MOBILE
 
 > The design flow in this website was meant to showcase a balanced minimal design that provided relevant information in a concise format on all devices.  
 > As the project was created, the intial design did not provide the flow that was expected in the pre project stage. The project was then adapted to help with this during development.  
-> The color theme was to be mainly using black and white for the base content with most additional color coming from overlays, images and as a background on the contact form.  
+> The color theme was taken from the queen pictures t-shirt and use of these pastel colors was used throughout the other pages on the website to create fluidity and consistency. 
+> Additional color came from banners,and images to create contrast.  
 
 ## Surface Plane
 
 ### Color
 > I decided the best approach to this website was an attempt at minimilistic design with rare pops of colour. Most other websites of this industry had either gone for too much in terms of design or too little and just provide a very poor user experience.
 
-> The decision was to stick with 
+> The decision was to stick with these set colors for the base 
 
- - #fff - White
- - #000 - Black
-And the occasional pop of color to finish on a modern design.
->Most additional color came through the images with the exception being the Hero Overlay and the Contact form.
->During the building of the project, some of the contact form did not have enough of a aspect ratio so I darkened the color to better suit users with visual impairment.
+ - #fafa - Off White
+ - rgba(216, 198, 202, .7) - light pastel pink
+ 
+And the occasional use of the below colors to create a subtle contrast.
+
+- rgba(186, 168, 172, 0.7) -medium pastel pink
+- rgba(60, 60, 60, 0.6) - dark pastel pink
+- #3a3a - dark grey
+
+>Most additional color came through the images with the exception being the Queen Overlay, banners and the Sign Up form.
 
 ### Typography - 
 
 >The font's chosen for this project were:
 
- - Roboto
+ - Oswald
  - Lato
+ - Sans Serif
+
 > The rationale was that I wanted all of the information provided on the website to be clear, concise and without any unnecessary distractions. 
-> My focus was to also assist with users who may have visual impairments
+> My focus was to also assist with users who may have visual impairments.
 
 ## Features
 
-<a name="features"></a>
-### index.html
-
 #### Navigation Bar
-![Navigation Bar](assets/images/features/feature-nav.png)
+NAV IMAGE
 
-> Navigation Bar developed using Flex and contains two links either side of the company name / logo.
+> Navigation Bar developed using Flex and contains 4 links to each page home, about, membership and signup. 
 
 #### Hero Section
-![Hero Section](assets/images/features/feature-hero.png)
+QUEEN IMAGE
 
-> Image with a box overlay with Call to action button. This button will take the user to the contact form on contact.html.
+> Image with a box overlay with Call to action link stating 7 day free trial. This link will take the user to the sign up form on signup.html.
 
 #### Services Section
-![Services Section](assets/images/features/feature-services.png)
+MEMBERSHIP IMAGE
 
-> Initially the design called for a services page but during development I changed the design to fit the scope of this project. In the future I would implement modals on all the service items to give typical faults, costs to repair and general timeframes.
+> This was initially a gallery page but i felt it didnt suit the website flow. I changed it to a membership page to give users more information about what services were on offer. 
+> I used a card format to display this.  
 
 #### Testimonials
-![Testimonial Cards](assets/images/features/feature-testimonials.png)
+REVIEWS IMAGE
 
-> General card idea was based around others I have seen and used on modern websites. I stared by making them from scratch anf then took a lot of inspiration from frontendmentor.com & freefrontend.com
+> General card idea was based around others I have seen and used on modern websites. Then i styled it to how i wished the site to look. 
+> I edited images took from pexels (https://www.pexels.com/) on canva (https://www.canva.com/) to achieve my desired results for the authors.  
 
 #### Footer
-![Footer](assets/images/features/feature-footer.png)
+FOOTER IMAGE
 
-> Flex footer used to showcase social media icons as well as physical address and opening times. I decided to include the opening times in a table as I felt it was aestetically pleasing compared to traditionally just the text content.
+> Flex footer used to showcase social media icons as well as physical address and copyrighting.  
 
-### about.html
+### Banner
+BANNER IMAGES
+
+> Added banners to the home and about page to use up unwanted white space through use of icons from flaticon (https://www.flaticon.com/search?word=strength), text and gradient color. 
+
+### Images
+IMAGES PICTURE
+
+> Use of images was carefully selected from the website pexels (https://www.pexels.com/) to fit in a square, vertical or horizontal position. 
+>This was showcased throughout the wesbite to provide a better user experience. 
+
+### Home
+LINK
+
+> The home page was coming across very bland with alot of white space. So i added more different types of elements to make it more original using cards, and banners. 
 
 #### About
-![About Section](assets/images/features/feature-about.png)
+LINK
 
-> The about section was initially intended to be a section about the garage history and then information about the bio of a few of the staff with image - text side by side. As the project progressed I decided to reduce this section for now.
+> The about section was initially intended to be a page about the bio of a few of the trainers with image, author name below and social media links. As the project progressed I decided to reduce this section for now as editing and fining the images proved impossible.
 
-### portfolio.html
+#### Membership
+LINK
 
-#### Portfolio
-![Portfolio Images](assets/images/features/feature-portfolio.png)
+> The membership section was originally intended to be a gallery page displaying images in a collage format, i struggled severly with this and felt the users were lacking pricing information. So i completely overhauled the whole page to include this.
 
-> The portfolio section was originally intended to be a services page and possibly include some click to expand content, however as I included the services in the home page I felt it was more appropriate to add a portfolio of work being done and of completed work.
+#### Signup Form
+LINK
 
-### contact.html
+> I didnt really have any trouble with the form, howvever i felt it was missing a drop down menu for the mememberships so i included this as an extra element.I also felt that with the use of text inputs, drop down menus and radio buttons helped keep the form interesting for user expereince.   
 
-#### Contact Form
-![Contact Form](assets/images/features/feature-form.png)
-
-> Initially when I was creating the form element I used the blue color as a background as a placeholder while I was working. The original thought was that I would display a background image with the content of the form sitting on top. In hindsight it probably would have been a more visually appealing solution but I felt I had already overlay content in the hero section of index.html and wanted to try different approaches in this project. 
-
-> I also think the color works with the minimalistic design of the site and it flows well into the contact numbers and map section.
-
-> Please note that while the contact form does collect and pass the requested data as tested with the code institute form dump link, this form take the user to a created html page that gives them a form submission message. As Javascript was not part of the brief for this project it was not possible to make this a fully functioning form.
+>I also like the contrast of color of the form and the background image. I did at the start have a different image which displayed an elderly lady holding a yoga mat which i loved, as i felt it created diversity towards users. I didnt want the website to be based around women as i had chosen pastel pinks shades for color and this image matched perfectly. So i changed to a different one to accomodate. 
 
 > This decision to forward to a new page was taken to improve user experience when using this project.
 
-#### Map & Contact Numbers
-![Map Area](assets/images/features/feature-map.png)
-
-> Instead of using a map from my own google developer account I used an i-frame from maps.ie as it was a convenient and quick solution. 
-
-
-<a name="left"></a>
-# Features Left to implement
-
-
 ### Home page
-> In the future I would like to include a side element banner to promote special offers that the repair shop may want to offer from time to time.
 
-> I would like to add pop up modals to the services section to explain what the typical faults might be, costs to fix and estimated timeframes.
-
->I would also like to make the service tiles as modals that onClick they would pop open with information about average issues, cost and duration it would take to fix. 
-
-
->I would like to add a carousel section to the testimonial cards that would auto move in a rotational basis and consist of about 5-8 different testimonials.
+>If i had more time i would of added more elements to the landing page to engage users more and include javascript to make it more animated with elements appearing via sliding in just like powerpoint for microsoft.
+>I would of liked to included a link image to the logo on every pages header. 
 
 ### About Page
-> In the future I would like to add profiles to the about page with a breakdown of all the staff at the business. Including their name, image, what they specialize in and brief bio about themselves.
+> In the future I would like to add more text describing the business. Alos adding a breakdown of all the trainers at the business. Including their name, image, and social media links. 
 
-### Portfolio
-> I would like to add a lightbox type gallery for these photos so that when a user clicks on them it will pop up and allow them to scroll through them as their leisure.
-> I would also like to add side by side before and after photos. Ideally with a scroll option for the user to see the work done.
+### Membership Page
+> I would of liked to add a feature to the cards that when the user clicked on each card it would turn over and display more information. 
 
-### Contact Us
->I have not developed a back end for the contact form and this would be high on my priority list to ensure that e-mails with booking requests are being sent both to the business & confirmation to the customer of what they requested.
-
-
->I would like to add a WhatsApp option or similar style contact method for business to allow customers to message the business for a more real-time response, whether that be for 24/7 breakdown or general queries
-
-
->I would also like to add call from browser to save the user having to copy and paste the phone number.
+### SignUp Page
+>I have not developed a back end for the signup form, i used the code institute default from Love Running. This would be crucial for any business to recieve data from their interactive users and i would of included this if i knew how and had time.
 
 ### Additional Page ideas
->I would add a careers page for potential young adults who would be interested in apprentices to submit their info.
+>I would like to add a chat bot feature so customers could ask more about the classes that they wished to sign up to.
+> I would use javascript throughout my website to make it more animated. 
+> I would add more pages to include other wellness options such as meditation and breathwork workshops to increase revenue for the business.
 
->I would add a facility for users to actually book in, in a realtime booking system.
-
-<a name="tech"></a>
 # Technology Used
+
 ### Html
-> Used to structure my webpages and the bones of any web project
+> Used to structure my webpages and the bones of my web project.
 
 ### CSS
 > Used to style and add layout to my project.
 
-### Font Awesome
-> Used for all the icons in this project
+### Font Awesome & Flaticon
+> Used for all the icons in this project.
 
 ### GoogleFonts
 > Used for all the fonts used in this project and to compare potential fonts.
 
-### Googlemap API
-> Used to embed I-frame on the contact page of a fictional business based in a real location in Belfast, Norther Ireland.
-
 ### Canva
-> Used to create the favicon logo
+> Used to edit images throughout the project when needed.
 
-### Online-Convert.com
-> Used to convert files from png to webp to reduce size and improve web loading speed.
+### Convertio
+> Used to convert img files from png to webp to reduce size and improve web loading speed.
 
-<a name="testing"></a>
 # Testing
-> Testing on this project was mainly done manually by myself and a few friends to determine site usability, responsiveness and ensure it is intuitive to a completely new user.
+> Testing on this project was done manually by myself. 
 
 ### Testing Phase
 
@@ -261,8 +251,11 @@ And the occasional pop of color to finish on a modern design.
 **Testing for responsiveness**
 | Test |Outcome  |
 |--|--|
-|Home page, about, portfolio, contact us displays correctly on screens larger than 950px|Pass |
-|Home page, about, portfolio, contact us displays correctly on screens smaller than 950px |Pass  
+|Home page, about, membership, signup displays correctly on screens larger than 950px|Pass |
+|Home page, about, membership, signup displays correctly on screens smaller than 950px |Pass 
+
+|Home page, about, membership, signup displays correctly on screens larger than 746px|Pass |
+|Home page, about, membership, signup displays correctly on screens smaller than 746px |Pass
 
 ### User testing
 
@@ -296,10 +289,10 @@ And the occasional pop of color to finish on a modern design.
 
 ![Google Lighthouse about.html](assets/images/testing-scans/lighthouse-about.png)
 
-### portfolio.html
+### membership.html
 ![Google Lighthouse portfolio.html](assets/images/testing-scans/lighthouse-portfolio.png)
 
-### contact.html
+### signup.html
 ![Google Lighthouse contact.html](assets/images/testing-scans/lighthouse-contact.png)
 
 
