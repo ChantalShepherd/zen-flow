@@ -33,7 +33,7 @@ UX
 ### Pre-project Planning
 >When deciding on this project i knew i wanted to create my website based around wellness. I had to figure out which website would have the most growth and traffic of customers. This was between Yoga, Meditation or Mindfulness.
 
-How ????
+>I saw this as an opportunity to craft an intuitive and visually engaging platform that promotes health and balance. 
 
 I came to the conclusion that the best path forward would be to build a Service website about Yoga.
 
@@ -239,45 +239,10 @@ LINK
 ### Testing Phase
 
 **Testing for links and Form**
-| Test |Outcome  |
-|--|--|
-|All links on Navigation lead to their correct pages| Pass  |
-|Contact us button leads to contact form on contact us page| Pass
-|Footer social links all lead to their respective social media sites |Pass|
-|Contact form submits when all criteria is filled correctly| Pass  |
-|User prevented from submitting form without correct elements| Pass|
-|Form Validation presents when incorrect input type is entered |Pass|
+
 
 **Testing for responsiveness**
-| Test |Outcome  |
-|--|--|
-|Home page, about, membership, signup displays correctly on screens larger than 950px|Pass |
-|Home page, about, membership, signup displays correctly on screens smaller than 950px |Pass 
 
-|Home page, about, membership, signup displays correctly on screens larger than 746px|Pass |
-|Home page, about, membership, signup displays correctly on screens smaller than 746px |Pass
-
-### User testing
-
-**User testing Challenge**
-
-> 5 users are given some basic tasks prior to visiting web page and the results totaled to give result (20% per successful user result.)
-
-| Test | Result |
-|--|--|
-|Upon arrival to website please navigate to where you would expect to find a contact form| 100%|
-|Please navigate to the Facebook social of this business|100%  |
-|Please fill in contact form with your information and preference in the marketing button| 100%|
-|Please provide me with a contact number of 24/7 breakdown| 100%  |
-|Please navigate to the Portfolio page and count how many images there are | 100%  |
-
-**User responsive testing**
-
-> 5 users were asked to view the website on their mobile devices and/or tablets to provide any feedback on errors or page overlapping issues.
-
-| Test | Result |
-|--|--|
-|Issues Reported| None|
 
 ## Google Lighthouse Testing
 
@@ -285,11 +250,11 @@ LINK
 
 ![Google Lighthouse index.html](assets/images/testing-scans/lighthouse-index.png)
 
-### about.html
+### gallery.html
 
 ![Google Lighthouse about.html](assets/images/testing-scans/lighthouse-about.png)
 
-### membership.html
+### classes.html
 ![Google Lighthouse portfolio.html](assets/images/testing-scans/lighthouse-portfolio.png)
 
 ### signup.html
@@ -302,19 +267,19 @@ LINK
 ![W3 index.html Check](assets/images/testing-scans/index-w3-check.png)
 #### Result: No Errors
 
-### about.html
+### gallery.html
 ![W3 about.html Check](assets/images/testing-scans/about-w3-check.png)
 #### Result: No Errors
 
-### portfolio.html
+### classes.html
 ![W3 about.html Check](assets/images/testing-scans/gallery-w3-check.png)
 #### Result: No Errors, 1 warning about the section missing a heading. Page heading appears for the portfolio above and requires no additional content.
 
-### contact.html
+### signup.html
 ![W3 about.html Check](assets/images/testing-scans/contact-w3-check.png)
 #### Result: No Errors
 
-### contact-complete.html
+### signup-complete.html
 ![W3 about.html Check](assets/images/testing-scans/form-complete-w3-check.png)
 #### Result: No Errors
 
@@ -324,30 +289,15 @@ LINK
 ![W3 about.html Check](assets/images/testing-scans/css-w3jigsaw-check.png)
 #### Result: No Errors
 
-<a name="bugs"></a>
-## **Bugs**
-> Issues with centering content on the hero overlay. **fixed**
 
-> Decided to improve the flow of the page that the parralax would be better between the two content sections. **fixed**
+**Bugs**
 
-> Original image just didnt fit the flow of the page nor the style of the page **fixed**
 
-> Font awesome social media icons showing as squares even though the script link is in the head and icon tags are correct. **fixed**
 
-> Issue with footer content overlapping and not centering. **fixed**
 
-> issue with services overlapping on mobile. (fixed, was targetting wrong element container) **fixed**
-
-> Contrast issue noted on lighthouse for the tag elements on the testimonials.(fixed, made colour darker and increased font size and weight). **fixed**
-
-> Images not in correct aspect ratio. (removed placeholder images and downloaded them in the size needed.) **fixed**
-
-> Bug appeared which some images did not show when deployed. Issue resolved as some images were using absolute file paths and not relative. **fixed**
-
-<a name="deployment"></a>
 ## Deployment
 
-> To deploy the project I followed these steps starting from the main project repository [here](https://github.com/Alan-Bushell/belfast-auto-repairs).
+> To deploy the project I followed these steps starting from the main project repository [here] (https://github.com/ChantalShepherd/zen-flow.git)
 
  1. Clicked on `Settings` on the navigation menu in the repository
  2. I then selected the `Pages` menu on the side bar.
@@ -357,57 +307,12 @@ LINK
  
 > I then received a notification from GitHub that my project is being deployed and after about 1 minute & a couple of refreshes of the page it was ready and live.
 
-<a name="credits"></a>
 ## Credits
 
-### All images sourced from pexels.com. Links for images included below
+### All images sourced from pexels.com. 
+(https://www.pexels.com/)
 
-> hero: (https://www.pexels.com/photo/an-auto-mechanic-checking-the-engine-of-a-car-4315570/)
-
-> parralax: Photo by jae park from Pexels(https://www.pexels.com/photo/set-of-tool-wrench-162553/)
-
-> card1: Photo by Mike from Pexels(https://www.pexels.com/photo/white-land-rover-range-rover-suv-on-road-116675/)
-
-> card1-user: Photo by Daniel Xavier from Pexels(https://www.pexels.com/photo/woman-wearing-black-eyeglasses-1239291/)
-
-> card2: Photo by Lloyd Freeman from Pexels(https://www.pexels.com/photo/photo-of-mercedes-benz-g-class-parked-on-dirt-road-1429775/)
-
-> card2-user: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/man-in-brown-button-up-shirt-3785079/)
-
-> card3: Photo by Mike from Pexels(https://www.pexels.com/photo/blue-bmw-coupe-892522/)
-
-> card3-user: Photo by Nicholas Swatz from Pexels(https://www.pexels.com/photo/photo-of-man-wearing-white-shirt-2770600/)
-
-> about-hero: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/happy-elderly-worker-smiling-in-workshop-3846508/)
-
-> port-image1: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/man-in-black-jacket-standing-under-the-vehicle-3807133/)
-
-> port-image2: Photo by Lex Ger from Pexels(https://www.pexels.com/photo/close-up-photo-of-automotive-part-3642618/)
- 
-> port-image3: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/bearded-man-fixing-motorcycle-in-workshop-3822843/)
- 
-> port-image4: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/man-in-black-jacket-and-black-pants-standing-under-vehicle-3807811/)
- 
-> port-image5: Photo by Mídia from Pexels(https://www.pexels.com/photo/red-car-engine-bay-4116220/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
- 
-> port-image6: Photo by Malte Luk from Pexels(https://www.pexels.com/photo/man-fixing-vehicle-engine-2244746/)
- 
-> port-image7: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/man-in-black-jacket-and-black-knit-cap-inspecting-car-engine-3807277/)
- 
-> port-image8: Photo by cottonbro from Pexels(https://www.pexels.com/photo/man-in-blue-dress-shirt-holding-brown-wooden-tool-4489737/)
- 
-> port-image9: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/man-in-black-jacket-and-black-pants-sitting-near-silver-vehicle-3807386/)
- 
-> port-image10: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/photo-of-man-inspecting-car-engine-3807517/)
- 
-> port-image11: Photo by cottonbro from Pexels(https://www.pexels.com/photo/man-in-black-t-shirt-and-blue-denim-jeans-standing-near-black-car-during-nighttime-4489721/)
- 
-> port-image12: Photo by cottonbro from Pexels(https://www.pexels.com/photo/person-in-black-shirt-and-gray-pants-standing-beside-black-car-4489765/)
-
-<a name="content"></a>
 ## Content & Resources
-### Maps.ie 
-> Used to embed googlemap Iframe(https://www.maps.ie/)
 
 ### Pexels.com
 > Images used in this project.
@@ -415,20 +320,13 @@ LINK
 ### w3 schools
 > Used for general lookup for HTML and CSS synthax queries
 
-### Stack Overflow
-> Used to query issues relating to overlapping CSS issues
-
-### freefrontend.com(https://freefrontend.com/css-cards/)
-> Used for inspiration & reference for the cards deck used in testimonials
-
-### csstricks.com
-> Used for help with flex box and allignment
-
 ### Code Institute
 > Project created in line with course content and within project 1 scope.
 
-<a name="acknowlegements"></a>
+### Font Awesome & Flaticon
+> All icons used in the project sourced from these 2 sites.
+
 ## Acknowledgements
 
-### Dick Vlandeeren
+### Alan Bushell & Luliia Konovalova
 > My mentor who provided me with constructive feedback and positive reinforcement where applicable.
