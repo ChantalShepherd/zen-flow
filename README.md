@@ -1,13 +1,14 @@
 Zen-Flow
 
-A website built about Yoga in the Drogheda Area.
+A website built about Yoga in the Local Area. Users can easily access the website to sign up to classes that Zen Flow has to offer. 
 
 Chantal Shepherd 
 
-IMAGE OF RESPONSIVE WEBSITE GOES HERE 
+IMAGE OF RESPONSIVE SITE HERE
+
 
 LIVE SITE
-https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/signup.html
+(https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/)
 
 ------------------------------------------------------------------
 
@@ -31,9 +32,9 @@ TABLE OF CONTENTS
 
 UX
 ### Pre-project Planning
->When deciding on this project i knew i wanted to create my website based around wellness. I had to figure out which website would have the most growth and traffic of customers. This was between Yoga, Meditation or Mindfulness.
+-When deciding on this project i knew i wanted to create my website based around wellness. I had to figure out which website would have the most growth and traffic of customers. This was between Yoga, Meditation or Mindfulness.
 
->I saw this as an opportunity to craft an intuitive and visually engaging platform that promotes health and balance. 
+-I saw this as an opportunity to craft an intuitive and visually engaging platform that promotes health and balance. 
 
 I came to the conclusion that the best path forward would be to build a Service website about Yoga.
 
@@ -41,52 +42,52 @@ This above preplanning helped me to determine the type of project & industry to 
 
 ### Strategy Plane
 User
-> As a user I want to be able to find a wellness centre that caters to all types of yoga.  
-> As a user I want to be able to signup to classes straight online.
-> As a user I want to be able to see evidence of the merchants work & read testimonials as proof.  
-> As a user I want to be able to find out when and where the classes ran.
+- As a user I want to be able to find a wellness centre that caters to all types of yoga.  
+- As a user I want to be able to signup to classes straight online.
+- As a user I want to be able to see evidence of the merchants work & read testimonials as proof.  
+- As a user I want to be able to find out when and where the classes ran.
 
 Business Owner
-> As the site owner I want to be able to showcase my business to prospective customers.  
-> As the site owner I want to build trust and showcase details of classes that i have conducted.  
-> As the site owner I want to create leads and provide customers a way to sign up online. 
+- As the site owner I want to be able to showcase my business to prospective customers.  
+- As the site owner I want to build trust and showcase details of classes that i have conducted.  
+- As the site owner I want to create leads and provide customers a way to sign up online. 
 
 ### Scope Plane
-> The website should have a Navigation menu that is consistent across all pages and devices.  
-> The website should have a welcome message for the user explaining to them who we are and what we do.  
-> The website should neatly and appropriatly list the membership plans we provide to the user.  
-> The website should give the user proof of work completed through testimonials.  
-> The website should give the user a way to signup through a form. 
-> The website should give the user more contact via a physical address.
+- The website should have a Navigation menu that is consistent across all pages and devices.  
+- The website should have a welcome message for the user explaining to them who we are and what we do.  
+- The website should neatly and appropriatly list the membership plans we provide to the user.  
+- The website should give the user proof of work completed through testimonials.  
+- The website should give the user a way to signup through a form. 
+- The website should give the user more contact via a physical address.
 
 ## Structure Plane
-> To acheieve the goals of the above the website should include at least 4 pages consisting of:  Home, About, Membership and Signup.  
+- To acheieve the goals of the above the website should include at least 4 pages consisting of:  Home, About, Membership and Signup.  
 
 **Home Page**
-> Navigation with links  
-> Queen welcome message with call to action to take user to signup form.  
-> Information regarding various classes provided with images. 
-> Explanation of the benefits of Yoga.
-> Testimonials showcasing reviews and work completed from users of this business.
-> Footer section with adress of the business along with links to the businesses social media pages.
+- Navigation with links  
+- Queen welcome message with call to action to take user to signup form.  
+- Information regarding various classes provided with images. 
+- Explanation of the benefits of Yoga.
+- Testimonials showcasing reviews and work completed from users of this business.
+- Footer section with adress of the business along with links to the businesses social media pages.
 
 **About Page**
-> Queen welcome message with call to action to take user to signup form.  
-> Showcases blog posts.
-> Owner testimony message to inspire users.
-> Gallery of images of classes taken place. 
-> > Footer section with adress of the business along with links to the businesses social media pages.
+- Queen welcome message with call to action to take user to signup form.  
+- Showcases blog posts.
+- Owner testimony message to inspire users.
+- Gallery of images of classes taken place. 
+- Footer section with adress of the business along with links to the businesses social media pages.
 
 **Membership**
-> Queen welcome message with call to action to take user to signup form. 
-> Cards displaying prices of different memberships. 
+- Queen welcome message with call to action to take user to signup form. 
+- Cards displaying prices of different memberships. 
 
 **SignUp**
-> A form for the user to sign up to yoga classes.  
-> The form should collect contact details for the customer so that the merchant can contact them back.
-> The form should include an option for the user to select if they want to choose a membership. 
-> The form should include information that gives the user a choice of selecting a type of wellness they are interested in which will give usueful data to the merchant.
-> The contact form should give user feedback on submission.
+- A form for the user to sign up to yoga classes.  
+- The form should collect contact details for the customer so that the merchant can contact them back.
+- The form should include an option for the user to select if they want to choose a membership. 
+- The form should include information that gives the user a choice of selecting a type of wellness they are interested in which will give usueful data to the merchant.
+- The contact form should give user feedback on submission.
 
 ## Skeleton Plane
 
@@ -96,17 +97,17 @@ WIREFRAME IMAGE
 ### Home Page mobile wireframe
 RESPONSIVE WIREFRAME MOBILE
 
-> The design flow in this website was meant to showcase a balanced minimal design that provided relevant information in a concise format on all devices.  
-> As the project was created, the intial design did not provide the flow that was expected in the pre project stage. The project was then adapted to help with this during development.  
-> The color theme was taken from the queen pictures t-shirt and use of these pastel colors was used throughout the other pages on the website to create fluidity and consistency. 
-> Additional color came from banners,and images to create contrast.  
+- The design flow in this website was meant to showcase a balanced minimal design that provided relevant information in a concise format on all devices.  
+- As the project was created, the intial design did not provide the flow that was expected in the pre project stage. The project was then adapted to help with this during development.  
+- The color theme was taken from the queen pictures t-shirt and use of these pastel colors was used throughout the other pages on the website to create fluidity and consistency. 
+- Additional color came from banners,and images to create contrast.  
 
 ## Surface Plane
 
 ### Color
-> I decided the best approach to this website was an attempt at minimilistic design with rare pops of colour. Most other websites of this industry had either gone for too much in terms of design or too little and just provide a very poor user experience.
+- I decided the best approach to this website was an attempt at minimilistic design with rare pops of colour. Most other websites of this industry had either gone for too much in terms of design or too little and just provide a very poor user experience.
 
-> The decision was to stick with these set colors for the base 
+- The decision was to stick with these set colors for the base 
 
  - #fafa - Off White
  - rgba(216, 198, 202, .7) - light pastel pink
@@ -117,28 +118,28 @@ And the occasional use of the below colors to create a subtle contrast.
 - rgba(60, 60, 60, 0.6) - dark pastel pink
 - #3a3a - dark grey
 
->Most additional color came through the images with the exception being the Queen Overlay, banners and the Sign Up form.
+-Most additional color came through the images with the exception being the Queen Overlay, banners and the Sign Up form.
 
 ### Typography - 
 
->The font's chosen for this project were:
+-The font's chosen for this project were:
 
  - Oswald
  - Lato
  - Sans Serif
 
-> The rationale was that I wanted all of the information provided on the website to be clear, concise and without any unnecessary distractions. 
-> My focus was to also assist with users who may have visual impairments.
+- The rationale was that I wanted all of the information provided on the website to be clear, concise and without any unnecessary distractions. 
+- My focus was to also assist with users who may have visual impairments.
 
 ## Features
 
 #### Navigation Bar
-NAV IMAGE
+![alt text](image-3.png)
 
-> Navigation Bar developed using Flex and contains 4 links to each page home, about, membership and signup. 
+- Navigation Bar developed using Flex and contains 4 links to each page home, about, membership and signup. 
 
 #### Hero Section
-QUEEN IMAGE
+![alt text](image-2.png)
 
 > Image with a box overlay with Call to action link stating 7 day free trial. This link will take the user to the sign up form on signup.html.
 
