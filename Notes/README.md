@@ -351,7 +351,7 @@ https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8
 
 ### classes.html
 https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io%2Fclasses.html
-#### Result: 15 Errors. 
+#### Result: 2 Errors. 
 
 ### signup.html
 https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io%2Fsignup.html
