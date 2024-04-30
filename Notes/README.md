@@ -343,11 +343,11 @@ Below are my results.
 
 ### index.html
 https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io%2Findex.html
-#### Result: 13 errors.  
+#### Result: 7 errors. 3 info errors, these a suggestive not necesary.  
 
 ### gallery.html
 https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io%2Fgallery.html
-#### Result: 14 errors and 1 warning. Warning states section doesnt have a heading, page heading appears above and requires no additional content. 
+#### Result: 5 errors and 1 warning. Warning states section doesnt have a heading, page heading appears above and requires no additional content. 
 
 ### classes.html
 https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io%2Fclasses.html
