@@ -4,7 +4,7 @@ A website built about Yoga in the Local Area. Users can easily access the websit
 
 Chantal Shepherd 
 
-![Responsive Website Image](documentation/image.png)
+![responsive image](documentation/image.png)
 
 
 LIVE SITE
@@ -32,9 +32,10 @@ TABLE OF CONTENTS
 
 UX
 ### Pre-project Planning
--When deciding on this project i knew i wanted to create my website based around wellness. I had to figure out which website would have the most growth and traffic of customers. This was between Yoga, Meditation or Mindfulness.
 
--I saw this as an opportunity to craft an intuitive and visually engaging platform that promotes health and balance. 
+When deciding on this project i knew i wanted to create my website based around wellness. I had to figure out which website would have the most growth and traffic of customers. This was between Yoga, Meditation or Mindfulness.
+
+I saw this as an opportunity to craft an intuitive and visually engaging platform that promotes health and balance. 
 
 I came to the conclusion that the best path forward would be to build a Service website about Yoga.
 
@@ -92,10 +93,10 @@ Business Owner
 ## Skeleton Plane
 
 ### Home Page Desktop Image
-![Home Page Image](documentation/image-1.png)
+![Home Desktop Image](documentation/image-17.png)
 
 ### Home Page mobile Image
-![Mobile Home Page Image](documentation/image.png)
+![Mobile Image](documentation/image-18.png)
 
 - The design flow in this website was meant to showcase a balanced minimal design that provided relevant information in a concise format on all devices.  
 - As the project was created, the intial design did not provide the flow that was expected in the pre project stage. The project was then adapted to help with this during development.  
@@ -255,6 +256,14 @@ And the occasional use of the below colors to create a subtle contrast.
 - different background image.
 - signup form colored to contrast with background image. 
 
+#### Response Page 
+
+- same use of nav bar across all pages.
+- different background image.
+- short and sweet thankyou message after signup.
+
+![Response Page Image](documentation/image-19.png)
+
 ### Images
 
 - Use of images was carefully selected from the website pexels (https://www.pexels.com/) to fit in a square, vertical or horizontal position. 
@@ -262,31 +271,37 @@ And the occasional use of the below colors to create a subtle contrast.
 
 ### Home
 
-https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/index.html
+https://chantalshepherd.github.io/zen-flow/index.html
 
 - The home page was coming across very bland with alot of white space. So i added more different types of elements to make it more original using cards, and banners. 
 
 #### About
 
-https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/gallery.html
+https://chantalshepherd.github.io/zen-flow/gallery.html
 
 - The about section was initially intended to be a page about the bio of a few of the trainers with image, author name below and social media links. As the project progressed I decided to reduce this section for now as editing and fining the images proved impossible.
 
 #### Membership
 
-https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/classes.html
+https://chantalshepherd.github.io/zen-flow/classes.html
 
 - The membership section was originally intended to be a gallery page displaying images in a collage format, i struggled severly with this and felt the users were lacking pricing information. So i completely overhauled the whole page to include this.
 
 #### Signup Form
 
-https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/signup.html
+https://chantalshepherd.github.io/zen-flow/signup.html
 
 - I felt it was missing a drop down menu for the mememberships so i included this as an extra element.I also felt that with the use of text inputs, drop down menus and radio buttons helped keep the form interesting for user experience.   
 
 - I also like the contrast of color of the form and the background image. I did at the start have a different image which displayed an elderly lady holding a yoga mat which i loved, as i felt it created diversity towards users. I didnt want the website to be based around women as i had chosen pastel pinks shades for color and this image matched perfectly. So i changed to a different one to accomodate. 
 
 - This decision to forward to a new page was taken to improve user experience when using this project.
+
+### Response Page
+
+https://chantalshepherd.github.io/zen-flow/response.html?first_name=Chantal&last_name=shepherd&email_address=crshepherd1990%40gmail.com&telephone_number=0834551659&membership_preference=disabled+selected&wellness_preference=meditation
+
+-I wanted a bright coloured background image still using yoga as the main element, to give customers a eureka moment still in keeping with the wellness theme of the website.
 
 ### Home page
 
@@ -303,7 +318,11 @@ https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/signup.html
 
 ### SignUp Page
 
-- I have not developed a back end for the signup form, i used the code institute default from Love Running. This would be crucial for any business to recieve data from their interactive users and i would of included this if i knew how and had time.
+- I initially used the code institute default from Love Running. Thankfully i made a simple version of this form in time. As this is a crucial aspect for any business to recieve data from their interactive users i would make it slighlty more complex to gather more data where necessary.  
+
+### Response Page
+
+- I would add more interactive elements to make the congratulations more enegaging. 
 
 ### Additional Page ideas
 
@@ -339,7 +358,12 @@ https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/signup.html
 - Used to build the website and debug.
 
 # Testing
-- Testing on this project was done manually by myself. 
+
+- Testing on this project was done manually by myself.
+
+- Test all links including sign up buttons, navigation bar areas and logo is working correctly - no errors
+- Navigate effectictively through the site - no errors
+- Images displayed correctly and not distorted - no errors
 
 ### Testing Phase
 
@@ -349,22 +373,26 @@ https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/signup.html
 
 ### index.html
 
-https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/index.html
+https://chantalshepherd.github.io/zen-flow/index.html
 
 
 ### gallery.html (About Page)
 
-https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/gallery.html
+https://chantalshepherd.github.io/zen-flow/gallery.html
 
 
 ### classes.html (Membership Page)
 
-https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/classes.html
+https://chantalshepherd.github.io/zen-flow/classes.html
 
 
 ### signup.html
 
-https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/signup.html
+https://chantalshepherd.github.io/zen-flow/signup.html
+
+### response.html
+
+https://chantalshepherd.github.io/zen-flow/response.html?first_name=Chantal&last_name=shepherd&email_address=crshepherd1990%40gmail.com&telephone_number=0834551659&membership_preference=disabled+selected&wellness_preference=meditation
 
 
 ## HTML Validation
@@ -396,11 +424,11 @@ https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8
 
 #### Result: 4 Errors.
 
-### signup-complete.html
+### response.html
 
-https://validator.w3.org/nu/?doc=https%3A%2F%2Fformdump.codeinstitute.net%2F
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fchantalshepherd.github.io%2Fzen-flow%2Fresponse.html%3Ffirst_name%3DChantal%26last_name%3Dshepherd%26email_address%3Dcrshepherd1990%2540gmail.com%26telephone_number%3D0834551659%26membership_preference%3Ddisabled%2Bselected%26wellness_preference%3Dmeditation
 
-#### Result: 1 error, couldnt be checked due to being code institutes form and not made by myself. 
+#### Result: 1 warning, to use h1 element instead of h2, i disregarded this, i thought it was unecessary. 
 
 ## CSS Validation
 
@@ -432,7 +460,9 @@ End tag footer seen, but there were open elements.
 
 ## Improvements 
 
-I would of liked to of made my website fully responsive but unfortunately that didnt happen. I will know from now on when developing to build from either desktop or mobile first and base my media queries around one specifically. I was limited on time and was afraid if i deleted/modified elements on the css page it would throw everything else off. I did try this method a few times and always returned a negative result. 
+-I would of liked to of made my website fully responsive but unfortunately that didnt happen. I will know from now on when developing to build from either desktop or mobile first and base my media queries around one specifically. I was limited on time and was afraid if i deleted/modified elements on the css page it would throw everything else off. I did try this method a few times and always returned a negative result.
+
+-I would also like to change the about and memebrship pages to display these names instead of gallery and classes as thats what they were originally called. 
 
 
 ## Deployment
