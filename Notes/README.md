@@ -347,7 +347,7 @@ https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8
 
 ### gallery.html
 https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io%2Fgallery.html
-#### Result: 5 errors and 1 warning. Warning states section doesnt have a heading, page heading appears above and requires no additional content. 
+#### Result: 3 errors and 1 warning. Warning states section doesnt have a heading, page heading appears above and requires no additional content. 
 
 ### classes.html
 https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io%2Fclasses.html
@@ -379,6 +379,16 @@ Sign up form not displaying correctly.
 
 Links had button elements in html displaying incorrectly and bad use of coding.
 - Removed button from <a> attribute. Output corrected.
+
+## Unsolved Bugs 
+These were the 3 bugs i couldnt seem to solve, i tried googling to understand what it meant but got nowhere.
+Stray end tag on head Element
+Start tag body seen but an element of the same type was already open.
+End tag footer seen, but there were open elements.
+
+## Improvements 
+I would of liked to of made my website fully responsive but unfortunately that didnt happen. I will know from now on when developing to build from either desktop or mobile first and base my media queries around one specifically. I was limited on time and was afraid if i deleted/modified elements on the css page it would throw everything else off. I did try this method a few times and always returned a negative result. 
+
 
 ## Deployment
 
