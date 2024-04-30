@@ -453,7 +453,6 @@ a:hover {
     color: rgba(186, 168, 172, 0.7);
     font-size: 1rem;
     font-weight: 500;
-    font-style: bold;
 }
 
 .posts {
@@ -921,9 +920,7 @@ footer a {
         color: rgba(186, 168, 172, 0.7);
         font-size: 1rem;
         font-weight: 500;
-        font-style: bold;
     }
-
     
     #signup {
         background-position: center;
@@ -1073,7 +1070,6 @@ footer a {
         color: rgba(186, 168, 172, 0.7);
         font-size: 1rem;
         font-weight: 500;
-        font-style: bold;
     }
 }
 

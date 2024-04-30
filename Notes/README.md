@@ -365,11 +365,11 @@ https://validator.w3.org/nu/?doc=https%3A%2F%2Fformdump.codeinstitute.net%2F
 
 ### style.css
 https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
-#### Result: 3 errors. Value of bold is not an option displayed in 3 places.
+#### Result: 0 errors.
 
 
 **Bugs**
-There were a few bugs but these 3 were the most tricky.
+There were a few bugs but these 3 were the most tricky.I still have a few errors which i couldnt seem to solve on each page but there was bugs before from 15 errors and i managed to get it down to below 10. 
 
 CSS code displayed in main section. 
 -Moved data out of main element. Output corrected.
