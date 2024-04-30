@@ -385,8 +385,7 @@ a:hover {
 
 .container-left h2 {
     margin-bottom: 2rem;
-    font-size: 2.5rem;
-    ;
+    font-size: 2.5rem;    
     font-weight: 500;
     color: #3a3a3a;
 }
@@ -408,7 +407,7 @@ a:hover {
 }
 
 .container-left a:hover {
-    background: rgba(186, 168, 172, 0.7);
+    background: rgba(186, 172, 168, 0.7);
 }
 
 .container-right {
@@ -662,7 +661,40 @@ main {
     flex-grow: 1;
     margin-bottom: 1.5rem;
 }
+#response {
+    background-image: url("../images/signup4.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10%;
+    flex-grow: 1;
+    margin-bottom: 0;
+    height: 100vh;
+}
 
+#response img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#response h1 {
+    font-size: 2rem;
+    color: #3a3a3a;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+}
+
+#response p {
+    font-size: 2rem;
+    color: #fafafa;
+    text-align: center;
+}
+
+.footer-response {
+    margin-top: 1rem;
+}
 #signup-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
@@ -1073,6 +1105,59 @@ footer a {
     }
 }
 
+@media screen and (max-width: 1009px) {
+    .posts-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
+@media screen and (max-width:809px) {
+    .classes-content button {
+        font-size: 17px;
+    }
+}
 
+@media screen and (max-width: 682px) {
+    .membership_grid, .queen-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
+    .queen-container>* {
+        text-align: center;
+    }
+
+    .comments {
+        flex-direction: column;
+    }
+    .why-content{
+        margin-left: 2rem;
+    }
+    .container-right{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .posts-grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .us-content p {
+        font-size: 1rem;
+    }
+    .section-founder {
+        font-size: 1.5rem;
+    }
+    .quote-left{
+        font-size: 1rem;
+    }
+    .quote-right{
+        font-size: 1rem;
+    }
+}

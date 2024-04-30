@@ -4,11 +4,11 @@ A website built about Yoga in the Local Area. Users can easily access the websit
 
 Chantal Shepherd 
 
-![Responsive Website Image](image.png)
+![Responsive Website Image](documentation/image.png)
 
 
 LIVE SITE
-(https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/)
+https://chantalshepherd.github.io/zen-flow/
 
 ------------------------------------------------------------------
 
@@ -92,10 +92,10 @@ Business Owner
 ## Skeleton Plane
 
 ### Home Page Desktop Image
-![Home Page Image](image-1.png)
+![Home Page Image](documentation/image-1.png)
 
 ### Home Page mobile Image
-![Mobile Home Page Image](image.png)
+![Mobile Home Page Image](documentation/image.png)
 
 - The design flow in this website was meant to showcase a balanced minimal design that provided relevant information in a concise format on all devices.  
 - As the project was created, the intial design did not provide the flow that was expected in the pre project stage. The project was then adapted to help with this during development.  
@@ -105,6 +105,7 @@ Business Owner
 ## Surface Plane
 
 ### Color
+
 - I decided the best approach to this website was an attempt at minimilistic design with rare pops of colour. Most other websites of this industry had either gone for too much in terms of design or too little and just provide a very poor user experience.
 
 - The decision was to stick with these set colors for the base 
@@ -136,13 +137,15 @@ And the occasional use of the below colors to create a subtle contrast.
 #### Home Page
 
 #### Navigation Bar
-![Nav Bar Image](image-1.png)
+
+![Nav Bar Image](documentation/image-1.png)
 
 - Navigation Bar developed using Flex and contains 4 links to each page home, about, membership and signup.
 - Used across all pages. 
 
 #### Hero Section
-![Hero Image](image-2.png)
+
+![Hero Image](documentation/image-2.png)
 
 - Image with a box overlay with Call to action link stating 7 day free trial. This link will take the user to the sign up form on signup.html.
 - Used across all pages.
@@ -153,37 +156,43 @@ And the occasional use of the below colors to create a subtle contrast.
 - Description of why yoga is beneficial to entice customers to join. 
 
 #### Benefits Section
-![benefits image](image-4.png)
+
+![benefits image](documentation/image-4.png)
 
 - Image of woman practicising yoga. 
 - Description of why yoga is beneficial to entice customers to join. 
 
 #### Icon Banner Section
-![Icon Banner Image ](image-3.png)
+
+![Icon Banner Image ](documentation/image-3.png)
 
 - Small icons. 
 - Description of what the site can offer to customers. 
 
 #### Gallery Section
-![gallery image](image-5.png)
+
+![gallery image](documentation/image-5.png)
 
 - Collage of pictures displayed in 2 rows showcasing types of yoga on offer. 
 - Button in centre of image displaying names of different types of yoga. 
 
 #### Classes Section
-![classes image](image-6.png)
+
+![classes image](documentation/image-6.png)
 
 - Image of woman as background image. 
 - Description of yoga classes available.  
 
 #### Banner Section
-![banner image](image-7.png)
+
+![banner image](documentation/image-7.png)
 
 - Added banners to the home and about page to use up unwanted white space through use of icons from flaticon (https://www.flaticon.com/search?word=strength), text and gradient color. 
 - Description of data display in linear columns. 
 
 #### Reviews Section
-![reviews image](image-8.png)
+
+![reviews image](documentation/image-8.png)
 
 - 3 image card with testimonials of customer reviews. 
 - A card displaying information and signup link . 
@@ -191,48 +200,56 @@ And the occasional use of the below colors to create a subtle contrast.
 - I edited images took from pexels (https://www.pexels.com/) on canva (https://www.canva.com/) to achieve my desired results for the authors. 
 
 #### Footer Section
-![footer image](image-9.png)
+
+![footer image](documentation/image-9.png)
 
 - Displayed across all pages
 - Shows social media links to client social media pages.
 - Address of client business and copyrighting displayed. 
 
 #### About Section
-![About Page Image](image-10.png)
+
+![About Page Image](documentation/image-10.png)
 
 -Same nav bars.
 -Same hero page just displaying different image for versatility.
 
 #### Blog Section
-![blog image](image-13.png)
+
+![blog image](documentation/image-13.png)
 
 -3 cards displaying images, dates and information on relevant posts regarding yoga and wellness.
 
 #### Author Section
-![author image](image-12.png)
+
+![author image](documentation/image-12.png)
 
 -banner of client testimony towards potential customers.
 
 #### Gallery 2 Section
-![Gallery 2 image](image-11.png)
+
+![Gallery 2 image](documentation/image-11.png)
 
 - collage of images to break up the page showcasing various yoga poses.
 
 #### Membership Page
 
 #### Membership Section
-![Membership page image](image-14.png)
+
+![Membership page image](documentation/image-14.png)
 
 -same as the other pages just different image to create versatility.
 - This was initially a gallery page but i felt it didnt suit the website flow. I changed it to a membership page to give users more information about what services were on offer.
 
 #### Pricing Section
-![pricing image](image-15.png)
+
+![pricing image](documentation/image-15.png)
 
 - I used a card format to display pricing of memberships.  
 
 #### Signup Page
-![sign up page image](image-16.png)
+
+![sign up page image](documentation/image-16.png)
 
 - same use of nav bar across all pages.
 - different background image.
@@ -244,21 +261,25 @@ And the occasional use of the below colors to create a subtle contrast.
 - This was showcased throughout the wesbite to provide a better user experience. 
 
 ### Home
+
 https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/index.html
 
 - The home page was coming across very bland with alot of white space. So i added more different types of elements to make it more original using cards, and banners. 
 
 #### About
+
 https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/gallery.html
 
 - The about section was initially intended to be a page about the bio of a few of the trainers with image, author name below and social media links. As the project progressed I decided to reduce this section for now as editing and fining the images proved impossible.
 
 #### Membership
+
 https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/classes.html
 
 - The membership section was originally intended to be a gallery page displaying images in a collage format, i struggled severly with this and felt the users were lacking pricing information. So i completely overhauled the whole page to include this.
 
 #### Signup Form
+
 https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/signup.html
 
 - I felt it was missing a drop down menu for the mememberships so i included this as an extra element.I also felt that with the use of text inputs, drop down menus and radio buttons helped keep the form interesting for user experience.   
@@ -273,15 +294,19 @@ https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/signup.html
 - I would of liked to included a link image to the logo on every pages header. 
 
 ### About Page
+
 - In the future I would like to add more text describing the business. Alos adding a breakdown of all the trainers at the business. Including their name, image, and social media links. 
 
 ### Membership Page
+
 - I would of liked to add a feature to the cards that when the user clicked on each card it would turn over and display more information. 
 
 ### SignUp Page
+
 - I have not developed a back end for the signup form, i used the code institute default from Love Running. This would be crucial for any business to recieve data from their interactive users and i would of included this if i knew how and had time.
 
 ### Additional Page ideas
+
 - I would like to add a chat bot feature so customers could ask more about the classes that they wished to sign up to.
 - I would use javascript throughout my website to make it more animated. 
 - I would add more pages to include other wellness options such as meditation and breathwork workshops to increase revenue for the business.
@@ -319,52 +344,70 @@ https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/signup.html
 ### Testing Phase
 
 ## Google Lighthouse Testing
+
 - I used google lightouse testing to test the website for performance, acessibility, best practices and SEO. Below are links to my results.
 
 ### index.html
+
 https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/index.html
 
 
 ### gallery.html (About Page)
+
 https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/gallery.html
 
 
 ### classes.html (Membership Page)
+
 https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/classes.html
 
 
 ### signup.html
+
 https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/signup.html
 
 
 ## HTML Validation
+
 - I used NU html checker to validate my code. Most errors were displaying typos such as not closing div containers and spaces between attributes not being applied. If i had more time these would be simple fixes.
 Below are my results.
 
 ### index.html
+
 https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io%2Findex.html
+
 #### Result: 6 errors. 3 info errors, these a suggestive not necesary.  
 
 ### gallery.html
+
 https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io%2Fgallery.html
+
 #### Result: 3 errors and 1 warning. Warning states section doesnt have a heading, page heading appears above and requires no additional content. 
 
 ### classes.html
+
 https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io%2Fclasses.html
+
 #### Result: 2 Errors. 
 
 ### signup.html
+
 https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io%2Fsignup.html
+
 #### Result: 4 Errors.
 
 ### signup-complete.html
+
 https://validator.w3.org/nu/?doc=https%3A%2F%2Fformdump.codeinstitute.net%2F
+
 #### Result: 1 error, couldnt be checked due to being code institutes form and not made by myself. 
 
 ## CSS Validation
 
 ### style.css
+
 https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+
 #### Result: 0 errors.
 
 
@@ -381,12 +424,14 @@ Links had button elements in html displaying incorrectly and bad use of coding.
 - Removed button from <a> attribute. Output corrected.
 
 ## Unsolved Bugs 
+
 These were the 3 bugs i couldnt seem to solve, i tried googling to understand what it meant but got nowhere.
 Stray end tag on head Element
 Start tag body seen but an element of the same type was already open.
 End tag footer seen, but there were open elements.
 
 ## Improvements 
+
 I would of liked to of made my website fully responsive but unfortunately that didnt happen. I will know from now on when developing to build from either desktop or mobile first and base my media queries around one specifically. I was limited on time and was afraid if i deleted/modified elements on the css page it would throw everything else off. I did try this method a few times and always returned a negative result. 
 
 
@@ -405,7 +450,7 @@ I would of liked to of made my website fully responsive but unfortunately that d
 ## Credits
 
 ### All images sourced from pexels.com. 
-(https://www.pexels.com/)
+[Pexels](https://www.pexels.com/)
 
 ## Content & Resources
 
