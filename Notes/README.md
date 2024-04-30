@@ -338,11 +338,12 @@ https://8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io/signup.html
 
 
 ## HTML Validation
-- I used NU html checker to validate my code. Below are my results.
+- I used NU html checker to validate my code. Most errors were displaying typos such as not closing div containers and spaces between attributes not being applied. If i had more time these would be simple fixes.
+Below are my results.
 
 ### index.html
 https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io%2Findex.html
-#### Result: 13 errors, to do with not closing div containers and spaces between attributes not being applied. 
+#### Result: 13 errors.  
 
 ### gallery.html
 https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io%2Fgallery.html
