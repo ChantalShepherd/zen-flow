@@ -1,19 +1,18 @@
-/* Google Font Import */
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-/* Asterix wilcard selector to override default styles added by the browser */
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* General Styles */
+
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic Project Styles */
     color: #3a3a3a;
     font-family: "Lato", sans-serif;
 }
@@ -23,7 +22,6 @@ body {
     overflow: hidden;
 }
 
-/* H1, h2 and h3 headers */
 h1,h2,h3 {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
@@ -31,12 +29,10 @@ h1,h2,h3 {
     color: #2a2a2a;
 }
 
-/*Hides the heading  for meetup times without losing seo*/
 .hidden-heading {
     display: none;
 }
 
-/* Header */
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -68,7 +64,6 @@ header a {
     display: flex;
 }
 
-/* Navigation menu */
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -79,12 +74,10 @@ header a {
     margin-bottom: 1em;
 }
 
-/* Navbar with underlining*/
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Navbar Styles with dropdown menu*/
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -96,7 +89,6 @@ nav {
     top: 100%;
 }
 
-/* Nav Toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -109,15 +101,11 @@ nav {
     font-size: 2rem;
 }
 
-/* Main Content */
 main {    
-
-    /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
-/* Home Image Section Styling */
 #yoga {
     height: 800px;
     width: 100%;
@@ -141,9 +129,7 @@ main {
     margin-bottom: 4rem;
 }
 
-/*Cover Text*/
 #cover-text {
-    /*Final rgba value sets the transparency of the txt*/
     background-color: rgba(216, 198, 202, .7);
     font-size: 130%;
     position: absolute;
@@ -151,7 +137,6 @@ main {
     width: 80%;
     min-height: 200px;
     padding-top: 30px;
-    /* padding-left: 10px; */
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -162,7 +147,6 @@ main {
     ;
 }
 
-/*Free Trial Button*/
 a {
     background-color: rgba(186, 168, 172, 0.7);
     color: #fafafa;
@@ -189,7 +173,6 @@ a:hover {
     color: #3a3a3a;
 }
 
-/* Reasons to join Section Styling */
 .why-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -222,7 +205,6 @@ a:hover {
     color: rgba(234, 123, 219, 0.549);
 }
 
-/*Benefits Section*/
 .queen {
     background-color: #fafafa;
 }
@@ -262,28 +244,21 @@ a:hover {
     margin-bottom: 2rem;
 }
 
-/* Classes Section*/
 .classes-grid {
     margin-top: 4rem;
     display: flex;
     flex-wrap: wrap;
-    /* Allow items to wrap to the next row */
     justify-content: space-between;
-    /* Distribute items evenly */
 }
 
 .classes-image {
     width: calc(33.33% - 10px);
-    /* Adjust width to fit three images in a row with some spacing */
     margin-bottom: 20px;
-    /* Add spacing between rows */
 }
 
 .classes-image img {
     width: 100%;
-    /* Ensure images fill their containers */
     height: auto;
-    /* Maintain aspect ratio */
 }
 
 .section-subheader {
@@ -297,27 +272,18 @@ a:hover {
     font-size: 2.5rem;
 }
 
-/*Cover Text for Classes Section*/
 .classes-image {
     position: relative;
-    /* Ensure relative positioning for absolute child */
 }
 
 .classes-content {
     position: absolute;
-    /* Position the text box absolutely */
     top: 50%;
-    /* Position it in the middle vertically */
     left: 50%;
-    /* Position it in the middle horizontally */
     transform: translate(-50%, -50%);
-    /* Center it precisely */
     background-color: rgba(255, 255, 255, 0.5);
-    /* Transparent white background */
     padding: 20px;
-    /* Add padding for content */
     border-radius: 10px;
-    /* Add some border radius for rounded corners */
     text-align: center;
 }
 
@@ -325,9 +291,7 @@ a:hover {
     background-color: rgba(216, 198, 202, .7);
     color: #fff;
     border: none;
-    /* Remove button border */
     padding: 10px 20px;
-    /* Add padding for button */
     border-radius: 5px;
     cursor: pointer;
     font-family: "lato", sans-serif;
@@ -338,7 +302,6 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-/*Meetup times Section*/
 #times {
     background: url("../images/option4.jpg") no-repeat center/cover;
     display: flex;
@@ -352,10 +315,8 @@ a:hover {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 15px;
     text-align: center;
-    /*Keeps fluidity when expanding the screen*/
     flex-basis: calc(33.33% - 20px);
     flex-grow: 1;
-    /*creates a grid of meetup times*/
     border: 2px solid white;
 }
 
@@ -363,11 +324,9 @@ a:hover {
     color: #3a3a3a;
 }
 
-/* Banner Number Section*/
 .banner {
     padding: 5rem;
     background: linear-gradient(rgba(201, 119, 216, 0.322), rgba(255, 255, 255, 0.5));
-    /* Gradient background */
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -385,7 +344,6 @@ a:hover {
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.5);
-    /* Adjust the transparency here */
     z-index: 1;
 }
 
@@ -408,7 +366,6 @@ a:hover {
     color: rgba(0, 0, 0, 0.762);
 }
 
-/*Reviews Section*/
 .review {
     background: url("../images/bg.jpg") no-repeat top center/cover;
     display: flex;
@@ -499,7 +456,6 @@ a:hover {
     font-style: bold;
 }
 
-/*Posts Section*/
 .posts {
     background-color: #ffffff;
     margin-bottom: 4rem;
@@ -557,7 +513,6 @@ a:hover {
     border-radius: 8px;
 }
 
-/*Us Section*/
 .us {
     padding-bottom: 2rem;
     padding-top: 2rem;
@@ -593,7 +548,6 @@ a:hover {
     font-size: 1.5rem;
 }
 
-/*Gallery Section*/
 .photos-grid {
     display: grid;
     margin-top: 4rem;
@@ -617,7 +571,6 @@ a:hover {
     border-radius: 5px;
 }
 
-/*Membership Page*/
 .membership {
     background-color: #ffffff;
     margin-bottom: auto;
@@ -695,13 +648,9 @@ a:hover {
     text-align: center;
 }
 
-/* Form */
 main {
-    /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
-    /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
 }
@@ -780,12 +729,11 @@ option {
     color: #3a3a3a;
 }
 
-/* Footer */
+
 footer a {
     background-color: white;
 }
 
-/* Social Media Icons */
 .footer-container {
     background-color: #ffffff;
     margin: auto;
@@ -821,11 +769,8 @@ footer a {
     color: #3a3a3a;
 }
 
-
-/* Media Query tablets and larger devices (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /* Header */
     nav {
         display: block;
         position: relative;
@@ -852,14 +797,11 @@ footer a {
         margin: 0 0.5rem;
     }
 
-    /* Push main content down to accomodate larger header */
     main {
         margin-top: 79px;
     }
 
-    /*Yoga Cover Text*/
     #cover-text {
-        /*Final rgba value sets the transparency of the txt*/
         background-color: rgba(216, 198, 202, .7);
         font-size: 130%;
         position: absolute;
@@ -867,7 +809,6 @@ footer a {
         width: 80%;
         min-height: 200px;
         padding-top: 30px;
-        /* padding-left: 10px; */
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -878,7 +819,6 @@ footer a {
         ;
     }
     
-    /*Free Trial Button*/
     a {
         background-color: rgba(186, 168, 172, 0.7);
         color: #fafafa;
@@ -893,7 +833,7 @@ footer a {
         font-family: "Lato", sans-serif;
         width: fit-content;
     }
-/*Review Section*/
+
     .review {
         background: url("../images/bg.jpg") no-repeat top center/cover;
         display: flex;
@@ -984,7 +924,7 @@ footer a {
         font-style: bold;
     }
 
-    /*Sign Up Page*/
+    
     #signup {
         background-position: center;
         position: relative;
@@ -1006,7 +946,6 @@ footer a {
     }
 }
 
-/* Large devices (laptops and  desktops 992px and up) */
 @media screen and (min-width:992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
@@ -1016,7 +955,6 @@ footer a {
         grid-template-columns: repeat(2, 1fr);
     }
     #cover-text {
-        /*Final rgba value sets the transparency of the txt*/
         background-color: rgba(216, 198, 202, .7);
         font-size: 130%;
         position: absolute;
@@ -1024,7 +962,6 @@ footer a {
         width: 80%;
         min-height: 200px;
         padding-top: 30px;
-        /* padding-left: 10px; */
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -1034,7 +971,6 @@ footer a {
         color: #fafafa;        
     }
     
-    /*Free Trial Button*/
     a {
         background-color: rgba(186, 168, 172, 0.7);
         color: #fafafa;
@@ -1049,7 +985,7 @@ footer a {
         font-family: "Lato", sans-serif;
         width: fit-content;
     }
-    /*Review Section*/
+    
     .review {
         background: url("../images/bg.jpg") no-repeat top center/cover;
         display: flex;

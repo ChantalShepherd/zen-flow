@@ -343,7 +343,7 @@ Below are my results.
 
 ### index.html
 https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io%2Findex.html
-#### Result: 7 errors. 3 info errors, these a suggestive not necesary.  
+#### Result: 6 errors. 3 info errors, these a suggestive not necesary.  
 
 ### gallery.html
 https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io%2Fgallery.html
@@ -355,7 +355,7 @@ https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8
 
 ### signup.html
 https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io%2Fsignup.html
-#### Result: 17 Errors, and 1 warning. Li attribute is not serializable.
+#### Result: 4 Errors.
 
 ### signup-complete.html
 https://validator.w3.org/nu/?doc=https%3A%2F%2Fformdump.codeinstitute.net%2F
@@ -363,7 +363,7 @@ https://validator.w3.org/nu/?doc=https%3A%2F%2Fformdump.codeinstitute.net%2F
 
 ## CSS Validation
 
-### contact-complete.html
+### style.css
 https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-chantalshepherd-zenflow-ptk8914ze36.ws-eu110.gitpod.io%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 #### Result: 3 errors. Value of bold is not an option displayed in 3 places.
 
